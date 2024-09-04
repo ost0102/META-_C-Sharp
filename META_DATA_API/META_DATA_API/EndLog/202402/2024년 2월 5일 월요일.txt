@@ -1,0 +1,5406 @@
+[GetUserInfo ----2024-02-05 10:40:16]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:40:21]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "김은규",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:40:21]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "김은규",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01071250777",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": null,
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20240116133605123495"
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:40:31]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "김은규",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:40:31]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "김은규",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01071250777",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": null,
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20240116133605123495"
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:40:45]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 10:40:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 10:40:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:40:48]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:40:48]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 10:40:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 10:40:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:40:56]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:40:56]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 10:42:05]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 10:42:05]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 10:42:08]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 10:42:08]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:42:38]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 10:42:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 10:42:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:42:42]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:42:42]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetUserInfo ----2024-02-05 10:44:06]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 10:44:06]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 10:44:34]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 10:44:34]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 10:44:45]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 10:44:46]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 10:59:49]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 10:59:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:00:22]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:00:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:01:21]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:01:21]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:02:22]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:02:23]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:03:57]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:03:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:04:16]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:04:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:05:12]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:05:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:05:20]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:05:21]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:05:37]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:05:37]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:05:52]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:05:53]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 11:06:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:06:07]    Exception :   DATE_YYYY is Empty
+
+[GetDashBoardInfo-2024-02-05 11:07:43]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:07:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:07:51]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:07:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:07:56]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:07:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:08:01]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:08:01]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:08:39]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:08:40]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:14:00]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:14:01]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:16:39]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:16:39]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:18:12]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:18:12]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:19:06]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:19:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:20:29]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:20:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:22:41]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:22:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:24:06]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:24:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:24:27]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:24:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 11:31:26]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 11:31:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:06:46]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:06:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:08:42]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:08:43]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:08:47]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:08:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:10:24]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:10:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:11:29]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:11:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:12:45]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:12:46]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:13:05]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:13:06]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:13:12]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:13:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:13:17]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:13:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:14:26]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:14:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:14:33]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:14:34]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:18:03]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:18:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:18:16]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:18:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:18:32]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:18:33]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:18:55]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:18:56]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:19:00]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:19:01]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:19:23]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:19:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 13:20:05]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 13:20:06]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:20:08]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:20:08]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 13:20:11]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 13:20:11]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:20:15]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:20:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 13:21:32]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 13:21:32]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:21:41]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:21:42]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 13:21:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:21:45]    Exception :   DATE_YYYY is Empty
+
+[GetUserInfo ----2024-02-05 13:21:46]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티"
+  }
+]
+
+[GetLicensePath ----2024-02-05 13:21:46]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "CRN": "1148183347",
+    "USR_NM": "양재아이티",
+    "CUST_NM": "양재아이티",
+    "HP_NO": "01012345678",
+    "LOC_NM": "양재아이티",
+    "LOC_ADDR": "서울특별시 금천구 가산디지털2로 123 313호 양재아이티",
+    "BIZCOND": null,
+    "BIZTYPE": null,
+    "CEO": null,
+    "TEL_NO": null,
+    "ENG_NM": null,
+    "ENG_ADDR": null,
+    "MNGT_NO": "20221024100200853792"
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 13:21:48]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 13:21:49]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:24:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 13:29:49]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "12"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "11"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "10"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "09"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "08"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "07"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:53]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "06"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:53]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "05"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:54]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "04"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:54]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "03"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "02"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:29:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:32:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 13:32:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:16]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "sdddfas"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:17]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "sdddfas"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "sdddfas"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:19]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "sdddfas"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "1243412"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:25]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "1243412"
+  }
+]
+
+[GetTrackingList ----2024-02-05 13:34:26]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "MNGT_NO": "1243412"
+  }
+]
+
+[GetExImList ----2024-02-05 13:35:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:35:50]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:37:57]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:38:00]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:38:01]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:38:04]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:38:06]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:41:16]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:41:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:41:42]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetQuotationList ----2024-02-05 13:41:44]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20240201",
+    "TO_YMD": "20240229"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20231101",
+    "TO_YMD": "20231130"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20231001",
+    "TO_YMD": "20231031"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:21]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230901",
+    "TO_YMD": "20230930"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230801",
+    "TO_YMD": "20230831"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:23]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230701",
+    "TO_YMD": "20230731"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230601",
+    "TO_YMD": "20230630"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230501",
+    "TO_YMD": "20230531"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230401",
+    "TO_YMD": "20230430"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230301",
+    "TO_YMD": "20230331"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230201",
+    "TO_YMD": "20230228"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20230101",
+    "TO_YMD": "20230131"
+  }
+]
+
+[GetExImList ----2024-02-05 13:46:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221201",
+    "TO_YMD": "20221231"
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:46:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetExImList ----2024-02-05 13:47:06]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212"
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:47:08]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetUserInfo ----2024-02-05 13:47:18]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetUserInfo ----2024-02-05 13:47:30]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 13:47:33]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 13:47:34]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:47:36]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:56:00]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:56:38]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:59:54]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 13:59:54]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:03:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:03:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:04:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:07:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:07:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:07:29]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:07:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 14:07:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:07:53]    Exception :   DATE_YYYY is Empty
+
+[GetDashBoardInfo-2024-02-05 14:18:30]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:18:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:21:19]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:21:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:22:01]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:22:02]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:22:39]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:22:40]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:23:52]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:23:53]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:24:46]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:24:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:24:51]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:24:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:24:56]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:24:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo-2024-02-05 14:25:53]    Exception :   DATE_YYYY is Empty
+
+[GetRecommendQuot ----2024-02-05 14:25:53]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:28:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:28:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:28:37]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:28:39]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:28:51]    
+
+[GetReccomendFowarder ----2024-02-05 14:28:52]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:29:09]    
+
+[GetReccomendFowarder ----2024-02-05 14:29:09]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:30:39]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:30:40]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:43]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:45]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGA"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:48]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:30:49]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:35:09]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:35:10]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:35:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:35:16]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:35:16]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:36:00]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:36:01]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:36:06]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:36:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:36:10]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:36:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 14:36:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:36:15]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:36:15]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHA"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:38:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:38:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:38:21]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:38:23]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 14:38:24]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:40:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:40:04]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:07]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:11]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:11]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:12]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:12]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:12]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGA"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:14]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGJ"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:14]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGJ"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:15]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGJ"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:16]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGH"
+  }
+]
+
+[GetPortList-2024-02-05 14:40:16]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:42:45]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:42:46]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:42:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:42:55]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:43:23]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:43:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:43:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:43:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:47:42]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:47:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:48:04]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:48:05]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:48:09]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:48:11]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetPortList-2024-02-05 14:48:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI0"
+  }
+]
+
+[GetPortList-2024-02-05 14:48:14]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:48:20]    
+
+[GetReccomendFowarder ----2024-02-05 14:48:21]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:48:56]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:48:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:49:06]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:49:09]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:49:13]    
+
+[GetReccomendFowarder ----2024-02-05 14:49:14]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[SetQuotationRequest ----2024-02-05 14:49:36]    Parameter:   {"MAIN":[{"USR_ID":"webdev@yjit.co.kr","CRN":"1148183347","REQ_SVC":"SEA","POL_CD":"KRPUS","POD_CD":"CNSHA","POL_NM":"BUSAN, KOREA","POD_NM":"SHANGHAI, CHINA","ETD":"","ETA":"","RMK":"","ITEM_NM":"","PIC_CD":"webdev@yjit.co.kr","PIC_NM":"양재아이티","PIC_TEL":"01012345678","PIC_MAIL":"webdev@yjit.co.kr","OFFICE_NM":"양재아이티","REQ_FWD_CNT":1}],"DIM":[],"DOC":[]}
+
+[SendQuotationToElvis ----2024-02-05 14:49:37]    Exception :   네트워크 전송: TCP 전송 주소 접속 실패
+
+[GetQuotationList ----2024-02-05 14:49:40]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:50:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:50:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:50:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:50:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:50:39]    
+
+[GetReccomendFowarder ----2024-02-05 14:50:40]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[SetQuotationRequest ----2024-02-05 14:50:46]    Parameter:   {"MAIN":[{"USR_ID":"webdev@yjit.co.kr","CRN":"1148183347","REQ_SVC":"SEA","POL_CD":"KRPUS","POD_CD":"CNSHA","POL_NM":"BUSAN, KOREA","POD_NM":"SHANGHAI, CHINA","ETD":"","ETA":"","RMK":"","ITEM_NM":"","PIC_CD":"webdev@yjit.co.kr","PIC_NM":"양재아이티","PIC_TEL":"01012345678","PIC_MAIL":"webdev@yjit.co.kr","OFFICE_NM":"양재아이티","REQ_FWD_CNT":1}],"DIM":[],"DOC":[]}
+
+[SendQuotationToElvis ----2024-02-05 14:50:47]    Exception :   네트워크 전송: TCP 전송 주소 접속 실패
+
+[GetQuotationList ----2024-02-05 14:50:56]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:51:06]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 14:51:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:26]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:30]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:31]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAH"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHAUI"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHA"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:33]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHAI"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHA"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 14:52:37]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 14:52:41]    
+
+[GetReccomendFowarder ----2024-02-05 14:52:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:01:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:01:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:01:34]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:01:36]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 15:01:37]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 15:01:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 15:01:39]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:01:43]    
+
+[GetReccomendFowarder ----2024-02-05 15:01:44]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:09:32]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:09:32]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:09:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPU"
+  }
+]
+
+[GetPortList-2024-02-05 15:09:36]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:09:40]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 15:09:40]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:09:45]    
+
+[GetReccomendFowarder ----2024-02-05 15:09:46]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:15:40]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:15:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:15:44]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:15:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 15:15:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 15:15:48]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:15:52]    
+
+[GetReccomendFowarder ----2024-02-05 15:15:53]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:21:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:21:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:22:08]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:22:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 15:22:14]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:22:17]    
+
+[GetReccomendFowarder ----2024-02-05 15:22:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetUserInfo ----2024-02-05 15:23:16]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetDashBoardInfo ----2024-02-05 15:23:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02"
+  }
+]
+
+[GetRecommendQuot ----2024-02-05 15:23:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:23:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:23:23]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:26]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPU"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:26]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:28]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:34]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPU"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUD"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUD"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:37]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUD"
+  }
+]
+
+[GetPortList-2024-02-05 15:23:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:23:42]    
+
+[GetReccomendFowarder ----2024-02-05 15:23:43]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:38:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:38:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:27]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:30]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:30]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGH"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:31]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:33]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAUI"
+  }
+]
+
+[GetPortList-2024-02-05 15:38:33]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:38:48]    
+
+[GetReccomendFowarder ----2024-02-05 15:38:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:39:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:39:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:39:31]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPU"
+  }
+]
+
+[GetPortList-2024-02-05 15:39:31]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:39:34]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 15:39:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:39:39]    
+
+[GetReccomendFowarder ----2024-02-05 15:39:39]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:42:13]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:42:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:22]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:25]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:25]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:26]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAHI"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:28]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGA"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:28]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAUI"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAU"
+  }
+]
+
+[GetPortList-2024-02-05 15:42:30]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:42:34]    
+
+[GetReccomendFowarder ----2024-02-05 15:42:35]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:44:19]    
+
+[GetReccomendFowarder ----2024-02-05 15:44:19]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:44:25]    
+
+[GetReccomendFowarder ----2024-02-05 15:44:26]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:44:37]    
+
+[GetReccomendFowarder ----2024-02-05 15:44:37]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:46:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 15:46:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 15:46:21]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 15:46:23]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 15:46:24]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 15:47:32]    
+
+[GetReccomendFowarder ----2024-02-05 15:47:32]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:03:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:03:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:03:29]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:03:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 16:03:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:03:38]    
+
+[GetReccomendFowarder ----2024-02-05 16:03:38]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:04:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:04:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:04:53]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:04:56]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 16:04:56]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGH"
+  }
+]
+
+[GetPortList-2024-02-05 16:04:56]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:05:00]    
+
+[GetReccomendFowarder ----2024-02-05 16:05:00]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:08:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:08:48]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:08:50]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:08:53]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:08:58]    
+
+[GetReccomendFowarder ----2024-02-05 16:08:58]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:10:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:10:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:10:33]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:10:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 16:10:37]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAUI"
+  }
+]
+
+[GetPortList-2024-02-05 16:10:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHA"
+  }
+]
+
+[GetPortList-2024-02-05 16:10:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:10:42]    
+
+[GetReccomendFowarder ----2024-02-05 16:10:42]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:11:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:11:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:11:43]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:11:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 16:11:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:11:51]    
+
+[GetReccomendFowarder ----2024-02-05 16:11:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:18:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:18:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:19:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:19:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:19:28]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:19:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 16:19:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:19:44]    
+
+[GetReccomendFowarder ----2024-02-05 16:19:44]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:20:18]    
+
+[GetReccomendFowarder ----2024-02-05 16:20:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:21:11]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:21:11]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:21:36]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:21:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 16:21:38]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:21:41]    
+
+[GetReccomendFowarder ----2024-02-05 16:21:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:55:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:55:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 16:56:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 16:56:50]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 16:56:50]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 16:56:54]    
+
+[GetReccomendFowarder ----2024-02-05 16:56:54]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:59:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 16:59:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 17:01:49]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:01:57]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 17:01:58]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 17:01:59]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGH"
+  }
+]
+
+[GetPortList-2024-02-05 17:01:59]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAU"
+  }
+]
+
+[GetPortList-2024-02-05 17:02:00]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:02:04]    
+
+[GetReccomendFowarder ----2024-02-05 17:02:04]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFwdVolInfo ----2024-02-05 17:02:05]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:04:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:04:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 17:04:31]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:04:34]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 17:04:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:04:38]    
+
+[GetReccomendFowarder ----2024-02-05 17:04:38]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFwdVolInfo ----2024-02-05 17:04:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:05:24]    
+
+[GetReccomendFowarder ----2024-02-05 17:05:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:05:45]    
+
+[GetReccomendFowarder ----2024-02-05 17:05:45]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:05:50]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:06:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:06:03]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:07]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:09]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:10]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:10]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGA"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:10]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGAH"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:11]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 17:06:11]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:06:15]    
+
+[GetReccomendFowarder ----2024-02-05 17:06:15]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetFwdVolInfo ----2024-02-05 17:06:22]    Parameter:   [
+  {
+    "CRN": "1108130800",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA"
+  }
+]
+
+[GetFwdVolInfo ----2024-02-05 17:06:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:06:53]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:06:59]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:07:10]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:07:10]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 17:07:13]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:07:16]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 17:07:17]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:07:21]    
+
+[GetReccomendFowarder ----2024-02-05 17:07:21]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:08:10]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:08:28]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:09:47]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:09:50]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "AIR"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:09:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "AIR"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:09:52]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104085909891",
+    "REQ_SVC": "AIR"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:12:40]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104090309396",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[SetQuotStatus ----2024-02-05 17:13:03]    Exception :   ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+[GetQuotationList ----2024-02-05 17:13:04]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:13:13]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104085909891",
+    "REQ_SVC": "AIR"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:13:14]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104090309396",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:13:17]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221116173532198",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:13:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104105908396",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:13:20]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221118151206693",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[SetQuotStatus ----2024-02-05 17:13:22]    Exception :   ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+[GetQuotationList ----2024-02-05 17:13:23]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:13:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:15:22]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104090309396",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:15:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221104105908396",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:15:27]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221118151206693",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:15:28]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221118194629198",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-02-05 17:15:30]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221118200847891",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:18:30]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:18:36]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:18:36]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:18:37]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:18:37]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:36:36]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:36:39]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:36:39]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:36:39]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:36:40]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:41:01]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:41:03]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:41:04]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:41:04]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:41:04]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:44:21]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:44:23]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:44:23]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:44:23]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:44:24]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:44:54]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:44:56]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:44:57]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:44:57]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:44:57]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:46:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:46:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-02-05 17:46:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetPortList-2024-02-05 17:46:32]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:46:34]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHA"
+  }
+]
+
+[GetPortList-2024-02-05 17:46:35]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 17:46:36]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAUI"
+  }
+]
+
+[GetPortList-2024-02-05 17:46:36]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFowarderList ----2024-02-05 17:46:41]    
+
+[GetReccomendFowarder ----2024-02-05 17:46:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ORDER_TYPE": "AVG_TT_DAY"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:46:49]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:46:51]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:46:51]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:46:51]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:46:52]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-02-05 17:48:40]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-02-05 17:48:42]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-02-05 17:48:43]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV20240201140141"
+  }
+]
+
+[GetOcrData ----2024-02-05 17:48:43]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:48:43]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetExImList ----2024-02-05 17:50:11]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:50:33]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "DO"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:51:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "HBL"
+  }
+]
+
+[GetExImList ----2024-02-05 17:54:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:54:17]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "HBL"
+  }
+]
+
+[GetExImList ----2024-02-05 17:55:12]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:55:14]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "HBL"
+  }
+]
+
+[GetExImDocPath ----2024-02-05 17:55:32]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "INV"
+  }
+]
+
+[GetExImList ----2024-02-05 17:55:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240212"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:45]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHAN"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:47]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:48]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGA"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:48]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANG"
+  }
+]
+
+[GetPortList-2024-02-05 17:57:49]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetScheduleByPort-2024-02-05 17:57:51]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "ST_DATE": "20240205",
+    "END_DATE": "20240306"
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:04:33]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:06:43]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:06:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:07:02]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:07:11]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:07:43]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:08:37]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:10:27]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:11:32]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:11:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:12:35]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:12:36]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:12:37]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "11",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:12:38]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "10",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:12:39]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "09",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:32]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "08",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:32]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "07",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:33]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "06",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:34]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "05",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:34]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "04",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:35]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "03",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:36]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:36]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:37]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:43]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "11",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:49]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:50]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "11",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "10",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:52]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "06",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:52]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "07",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:53]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:53]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "09",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:54]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:54]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "05",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "04",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "08",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:13:56]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "03",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:01]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:03]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:05]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:08]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:09]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:22]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:14:28]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:14]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:16]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:17]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "11",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:22]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "07",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:22]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "04",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:22]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "03",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:23]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:23]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:23]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "08",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "09",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "10",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:24]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "06",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:25]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "05",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:15:34]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:08]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:09]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:10]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:11]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "11",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:12]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "10",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:12]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "09",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:13]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "08",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:14]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "07",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:15]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "06",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:15]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "05",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:16]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "04",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:17]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "03",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:18]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "02",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:19]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2023",
+    "DATE_MM": "01",
+    "PORT_CD": ""
+  }
+]
+
+[GetCtryVolume ----2024-02-05 18:16:20]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E",
+    "DATE_YYYY": "2022",
+    "DATE_MM": "12",
+    "PORT_CD": ""
+  }
+]
+
+[GetPortList-2024-02-05 18:17:39]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "ICN"
+  }
+]
+
+[GetPortList-2024-02-05 18:17:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPO"
+  }
+]
+
+[GetPortList-2024-02-05 18:17:46]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRP"
+  }
+]
+
+[GetPortList-2024-02-05 18:17:48]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "KRPUS"
+  }
+]
+
+[GetPortList-2024-02-05 18:17:51]    Parameter:   [
+  {
+    "REQ_SVC": "SEA",
+    "LOC_CD": "SHANGHAI"
+  }
+]
+
+[GetFrtCharge ----2024-02-05 18:17:53]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "CNTR_SIZE": "20,40"
+  }
+]
+
+[GetFrtCharge ----2024-02-05 18:17:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2023",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "CNTR_SIZE": "20,40"
+  }
+]
+
+[GetFrtCharge ----2024-02-05 18:17:57]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2022",
+    "POL_CD": "KRPUS",
+    "POD_CD": "CNSHA",
+    "CNTR_SIZE": "20,40"
+  }
+]
+

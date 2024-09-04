@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Format";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">서식 관리</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="search_type2">
+                        <div class="search_cover only_btn">
+                            <div class="type_value no_flex last">
+                                <button type="button" class="btn_regist" id="" onclick="location.href='@Url.Action("Regist","Format")'">서식등록</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- format-list -->
+                    <div class="format-list">
+                        <div class="format-list__header pc">
+                            <div class="format-list__title"><p>상태</p></div>
+                            <div class="format-list__title"><p>원본</p></div>
+                            <div class="format-list__title"><p>종류</p></div>
+                            <div class="format-list__title"><p>서식명</p></div>
+                            @*<div class="format-list__title"><p>등록자</p></div>*@
+                            <div class="format-list__title"><p>등록일자</p></div>
+                            <div class="format-list__title"><p>상세</p></div>
+                        </div>
+                        <div class="format-list__body" id="format_list">
+                            
+                        </div>
+                    </div>
+                    <!-- result -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pdf-layer -->
+    <div class="layer_zone pdf-layer" id="pdfLayer" style="z-index:10001">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <div class="pdf-layer__cont">
+                        <iframe src="" id="iframe_test"></iframe>
+                    </div>
+                    <button type="button" class="btns close3" id="" onclick="fniframeClose()"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- pdf-layer -->
+    @Scripts.Render("~/Scripts/Sub/FormatList.js")
+}

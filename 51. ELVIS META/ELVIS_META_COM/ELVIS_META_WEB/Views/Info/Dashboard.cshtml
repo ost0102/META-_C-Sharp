@@ -1,0 +1,1407 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">DashBoard</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="dash">
+                        <div class="dash__cont">
+                            <div class="dash-left__cont">
+                                <div class="search_type2">
+                                    <div class="search_cover">
+                                        <div class="cal_ym">
+                                            <button type="button" class="arr left" id="btn_cal_left"></button>
+                                            <span id="cal_date">2022.10</span>
+                                            <button type="button" class="arr right" id="btn_cal_right"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dash__doughnut">
+                                    <p>전체</p>
+                                    @{
+                                        if (Session["USR_TYPE"] != null)
+                                        {
+                                            if (Session["USR_TYPE"].ToString() == "S")
+                                            {
+                                                <div class="doughnut_canvas shipper" style="display: block;">
+                                                    <canvas id="DoughnutShipper" width="230" height="230"></canvas>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="doughnut_canvas excution" style="display:block">
+                                                    <canvas id="DoughnutExcution" width="230" height="230"></canvas>
+                                                </div>
+                                            }
+                                        }
+
+                                    }
+
+
+                                </div>
+                                <div class="dash-graph">
+                                    <div class="dash-graph__box donut">
+                                        <div class="dash-graph__donut">
+                                            @*<p>전체</p>
+                        <div class="dash-donut" id="testdonut"></div>*@
+                                            <!-- 대시바 공식
+                    첫번째가 될 항목은 per100으로 고정
+                    두번째부터는 비례식 사용하여 퍼센트 비례 퍼센트로 정렬
+                    ex) 32%가 100%라면 다음 항목이 26%일 경우
+                         32:100 = 26:x 로 계산하여 반올림
+                         x = 81.25이므로 span 에는 26%가 들어가지만 per 클래스는 per81을 넣어 계산을 해주시면 됩니다
+                    -->
+                                            @{
+                                                if (Session["USR_TYPE"] != null)
+                                                {
+                                                    if (Session["USR_TYPE"].ToString() == "S")
+                                                    {
+                                                        <div class="dash-bar shipper" id="dashBar" style="display:block;">
+                                                            <div class="dash-bar__line bar-form">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_img1.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">서식</p>
+                                                                        <p class="dash-kind__cnt" id="OCR_PER">20/47건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="OCR_PROG">
+                                                                            <div class="dash-progress__bar per42"></div>
+                                                                        </div>
+                                                                        <span id="OCR_PROG_PER">42%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-estimate">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_img2.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">견적</p>
+                                                                        <p class="dash-kind__cnt" id="QUOT_PER">8/15건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="QUOT_PROG">
+                                                                            <div class="dash-progress__bar per53"></div>
+                                                                        </div>
+                                                                        <span id="QUOT_PROG_PER">53%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-export">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_img3.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">수출</p>
+                                                                        <p class="dash-kind__cnt" id="EX_PER">320/640건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="EX_PROG">
+                                                                            <div class="dash-progress__bar per50"></div>
+                                                                        </div>
+                                                                        <span id="EX_PROG_PER">50%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-import">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_img4.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">수입</p>
+                                                                        <p class="dash-kind__cnt" id="IM_PER">227/542건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="IM_PROG">
+                                                                            <div class="dash-progress__bar per41"></div>
+                                                                        </div>
+                                                                        <span id="IM_PROG_PER">41%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="dash-bar excution" style="display:block">
+                                                            <div class="dash-bar__line bar-form">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_excution_img1.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">해운수출</p>
+                                                                        <p class="dash-kind__cnt" id="SEA_EX_PER">20/540건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="SEA_EX_PROG">
+                                                                            <div class="dash-progress__bar per42"></div>
+                                                                        </div>
+                                                                        <span id="SEA_EX_PROG_PER">42%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-estimate">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_excution_img2.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">해운수입</p>
+                                                                        <p class="dash-kind__cnt" id="SEA_IM_PER">32/240건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="SEA_IM_PROG">
+                                                                            <div class="dash-progress__bar per53"></div>
+                                                                        </div>
+                                                                        <span id="SEA_IM_PROG_PER">53%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-export">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_excution_img3.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">항공수출</p>
+                                                                        <p class="dash-kind__cnt" id="AIR_EX_PER">80/540건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="AIR_EX_PROG">
+                                                                            <div class="dash-progress__bar per50"></div>
+                                                                        </div>
+                                                                        <span id="AIR_EX_PROG_PER">50%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-import">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_excution_img4.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">항공수입</p>
+                                                                        <p class="dash-kind__cnt" id="AIR_IM_PER">72/540건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="AIR_IM_PROG">
+                                                                            <div class="dash-progress__bar per41"></div>
+                                                                        </div>
+                                                                        <span id="AIR_IM_PROG_PER">41%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dash-bar__line bar-estimate_excution">
+                                                                <div class="dash-kind">
+                                                                    <div class="dash-kind__img">
+                                                                        <img src="~/Images/dash_kind_excution_img5.png" />
+                                                                    </div>
+                                                                    <div class="dash-kind__cont">
+                                                                        <p class="dash-kind__title">견적진행</p>
+                                                                        <p class="dash-kind__cnt" id="QUOT_PER">165/540건</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="dash-value">
+                                                                    <div class="dash-bar__title">Progress</div>
+                                                                    <div class="dash-progress__bg">
+                                                                        <div class="dash-progress" id="QUOT_PROG">
+                                                                            <div class="dash-progress__bar per53"></div>
+                                                                        </div>
+                                                                        <span id="QUOT_PROG_PER">53%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                }
+
+                                            }
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @{
+                                if (Session["USR_TYPE"] != null)
+                                {
+                                    if (Session["USR_TYPE"].ToString() == "S")
+                                    {
+                                        <!-- Shipper-->
+                                        <div class="dash-right__cont shipper" style="display:block;">
+                                            <div class="dash-list">
+                                                <h2 class="dash-swiper__head">
+                                                    [<span id="ShipperNm">
+
+                                                    </span>] 님 아래의 화물은 어떠세요?
+                                                </h2>
+                                                <div class="exim-list info" id="eximList">
+                                                    @*<div class="exim-box air">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/air_import_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box air">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/air_export_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ship">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/ship_import_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ship">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/ship_export_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box air">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/air_import_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box air">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/air_export_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ship">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/ship_import_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ship">
+                                    <div class="exim-icn">
+                                        <img src="~/Images/ship_export_icn.png" />
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="exim-cont text-info home">
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POL</div>
+                                                    <p>CHICAGO,IL U.S.A.</p>
+                                                </div>
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">ITEM</div>
+                                                    <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                </div>
+                                            </div>
+                                            <div class="exim-cont__info">
+                                                <div class="exim-cont__inner exim-flex">
+                                                    <div class="exim-cont__title">POD</div>
+                                                    <p>INCHEON AIRPORT, KOREA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-cont doc-info">
+                                            <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                        </div>
+                                    </div>
+                                </div>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <!--실행사-->
+                                        <div class="dash-right__cont excution" style="display:block">
+                                            <div class="dash-esti-total__cont">
+                                                <h4 class="esti-total__tit">견적</h4>
+                                                <div class="esti-total">
+                                                    <div class="esti-total__status total">
+                                                        <p class="esti-total__nm">전체</p>
+                                                        <button type="button" class="esti-total__desc total"><span id="TOT_CNT"></span> </button>
+                                                    </div>
+                                                    <div class="esti-total__status present">
+                                                        <p class="esti-total__nm">진행중</p>
+                                                        <button type="button" class="esti-total__desc present"><span id="PRE_CNT"></span> </button>
+                                                    </div>
+                                                    <div class="esti-total__status finished">
+                                                        <p class="esti-total__nm">완료</p>
+                                                        <button type="button" class="esti-total__desc finished"><span id="COMP_CNT"></span> </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dash-list">
+                                                <div class="exim-list info" id="eximList">
+                                                    @*<div class="exim-box ing">
+                                    <div class="exim-icn">
+                                        진행중
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box done">
+                                    <div class="exim-icn">
+                                        진행<br />
+                                        완료
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ing">
+                                    <div class="exim-icn">
+                                        진행중
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box done">
+                                    <div class="exim-icn">
+                                        진행<br />
+                                        완료
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ing">
+                                    <div class="exim-icn">
+                                        진행중
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box done">
+                                    <div class="exim-icn">
+                                        진행<br />
+                                        완료
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ing">
+                                    <div class="exim-icn">
+                                        진행중
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box done">
+                                    <div class="exim-icn">
+                                        진행<br />
+                                        완료
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box ing">
+                                    <div class="exim-icn">
+                                        진행중
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-box done">
+                                    <div class="exim-icn">
+                                        진행<br />
+                                        완료
+                                    </div>
+                                    <div class="exim-inner">
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>BUSAN , KOREA</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.04(Fri)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner">
+                                                <p class="esti-cont__progress inquiry ">
+                                                    <img src="/Images/icn_progress2.png">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__flex">
+                                                <div class="esti-cont__desc">
+                                                    <p>GDANSK , POLAND</p>
+                                                </div>
+                                                <div class="esti-cont__desc2">
+                                                    <p>2022.11.15(Tue)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont__inner inner-flex">
+                                                <div class="esti-cont__date flex-column">
+                                                    <div class="esti-cont__date_start">
+                                                        <span class="esti-cont__date_title">견적요청일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.10</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_end">
+                                                        <span class="esti-cont__date_title">최종견적일</span>
+                                                        <span class="esti-cont__date_cont">2022.11.15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="esti-cont__etc">
+                                                    <div class="esti-cont__etc_item">
+                                                        <span class="esti-cont__etc_title">품목명</span>
+                                                        <span class="esti-cont__etc_cont">RICE CAKE MACHINE</span>
+                                                    </div>
+                                                    <div class="esti-cont__date_file">
+                                                        <span class="esti-cont__etc_title">문서</span>
+                                                        <span class="esti-cont__etc_cont">
+                                                            <span class="doc_type1"><img src="/Images/icn_doc02.png">C/I</span>
+                                                            <span class="doc_type2"><img src="/Images/icn_doc02.png">P/L</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__box inquiry">
+                                            <div class="esti-cont-flex">
+                                                <div class="esti-cont__transit ship">
+                                                    <button type="button" class="btns esti-cont__circle seaQuot">
+                                                        <img src="/Images/icn_ship.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">SEA</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                                <div class="esti-cont__transit air">
+                                                    <button type="button" class="btns esti-cont__circle airQuot">
+                                                        <img src="/Images/icn_air.png">
+                                                        <p style="display:none">QUOT221103184624495</p>
+                                                        <p style="display:none">0</p>
+                                                        <p style="display:none">Y</p>
+                                                        <p style="display:none">AIR</p>
+                                                        <p>진행중</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+
+                            }
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Morris Donut -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    @Scripts.Render("~/Scripts/Sub/Info/Dashboard.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

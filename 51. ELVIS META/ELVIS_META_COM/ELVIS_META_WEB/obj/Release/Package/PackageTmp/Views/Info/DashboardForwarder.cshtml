@@ -1,0 +1,1127 @@
+﻿
+@{
+    ViewBag.Title = "DashboardForwarder";
+    Layout = "~/Views/Shared/_LayoutForwarder.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <h1 class="sub_title">DashBoard</h1>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- 서비스 항목 설정 -->
+                    <div class="dash-service">
+                        <h2 class="dash-service__head">서비스 항목 설정</h2>
+                        <div class="dash-service__cover">
+                            <div class="dash-service__tbl type1">
+                                <div class="dash-tbl">
+                                    <div class="dash-tbl__head"><p>현재 서비스<br />(<span id="today_dt">2022.12.15</span> 기준)</p></div>
+                                    <div class="dash-tbl__body">
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__th">견적/서식(문서판독)관리</div>
+                                            <div class="dash-tbl__td">200,000</div>
+                                        </div>
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__th">수출입 화물 관리</div>
+                                            <div class="dash-tbl__td">100,000</div>
+                                        </div>
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__th">월사용료</div>
+                                            <div class="dash-tbl__td">300,000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dash-service__tbl type2">
+                                <div class="dash-tbl">
+                                    <div class="dash-tbl__head">변경 요청 서비스</div>
+                                    <div class="dash-tbl__body">
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__cover">
+                                                <div class="dash-tbl__th chk type3">
+                                                    <input type="checkbox" id="chkEsti" class="GetServicePrice"/>
+                                                    <label for="chkEsti">견적/서식(문서판독)관리</label>
+                                                </div>
+                                                <div class="dash-tbl__th chk type3">
+                                                    <input type="checkbox" id="chkExim" class="GetServicePrice"/>
+                                                    <label for="chkExim">수출입 화물 관리</label>
+                                                </div>
+                                                <div class="dash-tbl__th chk type3">
+                                                    <input type="checkbox" id="chkData" class="GetServicePrice"/>
+                                                    <label for="chkData">물류 분석 데이터 관리</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__cover type3">
+                                                <div class="dash-tbl__td" id="one">200,000</div>
+                                                <div class="dash-tbl__td" id="two">100,000</div>
+                                                <div class="dash-tbl__td" id="three">100,000</div>
+                                            </div>
+                                        </div>
+                                        <div class="dash-tbl__tr">
+                                            <div class="dash-tbl__cover type2">
+                                                <div class="dash-tbl__td">
+                                                    <p>변경 월사용료</p>
+                                                    <p id="tot_prc">0</p>
+                                                    <button type="button" class="btns request" id="btnRequest">요청</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 서비스 항목 설정 -->
+                    <!-- search_type2 -->
+                    @*<div class="search_type2">
+            <div class="search_cover dash-fwd">
+                <div class="cal_ym">
+                    <button type="button" class="arr left" id="btn_cal_left"></button>
+                    <span id="cal_date">2022.10</span>
+                    <button type="button" class="arr right" id="btn_cal_right"></button>
+                </div>
+            </div>
+        </div>*@
+                    <!-- search_type2 -->
+                    <div class="dash-tab">
+                        <div class="tab_area">
+                            <ul class="tab" id="">
+                                <li class="on" id="month_tab">월별</li>
+                                <li id="bungi_tab">분기별</li>
+                                <li id="bangi_tab">반기별</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dash-panel tab_panel slide01" id="month">
+                        <div class="panel dash-report" id="month_child" style="display:block;">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.01</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>157,546,378</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>94,416,946</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.02</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.03</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>987,487,678</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>713,458,977</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.04</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.05</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.06</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.07</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>3006</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>1,269</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>3,456,278</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>23,476,798</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.08</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,596</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>3,956</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>978,996,758</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>165,496,758</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.09</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>600</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>600</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>1,897,578</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>1,956,698</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.10</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,556</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>463</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>3,446</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>402</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>146,982,378</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>417,964,519</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item ">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.11</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>1,123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>164,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>127,549</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>67,944,556</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>53,546,748</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item ">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>2022.12</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>356</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>213</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>213</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>149</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>67,642,615</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>58,134,972</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2023.01</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="swiper-button swiper-button-prev"></button>
+                            <button class="swiper-button swiper-button-next"></button>
+                        </div>
+                    </div>
+
+                    <div class="dash-panel tab_panel slide02" id="bungi" style="display:none;">
+                        <div class="panel dash-report" id="bungi_child" style="display:none;">
+                            <div class="swiper-container2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>1분기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per78"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per48"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>4,146,178</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>166,944,118</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide nodata">
+                                            <div class="dash-slide__cal">
+                                                <p>2분기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per0"></div>
+                                                                <p>요청 <span>0</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>0</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>RTON <span>0</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per0"></div>
+                                                            <p>TEU <span>0</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>3분기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>4,495,278</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>3,654,478</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>4분기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>4,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>3,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>3,244,778</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>197,644,478</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="swiper-button swiper-button-prev"></button>
+                            <button class="swiper-button swiper-button-next"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="dash-panel tab_panel slide03" id="bangi" style="display:none;">
+                        <div class="panel dash-report" id="bangi_child" style="display:none;">
+                            <div class="swiper-container3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>상반기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>123,456,78</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>123,456,78</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide item">
+                                        <div class="dash-slide">
+                                            <div class="dash-slide__cal">
+                                                <p>하반기</p>
+                                            </div>
+                                            <div class="dash-slide__graph">
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 요청 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per70">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent request per58"></div>
+                                                                <p>요청 <span>3,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>123</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type1">
+                                                    <div class="dash-slide__title">견적 진행 현황</div>
+                                                    <div class="dash-slide__cont">
+                                                        <!-- 100퍼 감싸고 -->
+                                                        <div class="dash-bar2">
+                                                            <!-- 중간 퍼센트 감싸고 -->
+                                                            <div class="dash-bar2__line per100">
+                                                                <!-- 그 안에 퍼센트 -->
+                                                                <div class="dash-bar2__percent current per78"></div>
+                                                                <p>요청 <span>123,456</span>건</p>
+                                                            </div>
+                                                        </div>
+                                                        <p>응답 : <span>6,789</span>건</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-slide__bar type2">
+                                                    <div class="dash-slide__title">물동량</div>
+                                                    <div class="dash-slide__cont">
+                                                        <div class="dash-bar3 rton">
+                                                            <div class="dash-bar3__line per100"></div>
+                                                            <p>RTON <span>123,456,78</span></p>
+                                                        </div>
+                                                        <div class="dash-bar3 teu">
+                                                            <div class="dash-bar3__line per90"></div>
+                                                            <p>TEU <span>123,456,78</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="swiper-button swiper-button-prev"></button>
+                            <button class="swiper-button swiper-button-next"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @Scripts.Render("~/Scripts/Sub/Info/DashboardForwarder.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

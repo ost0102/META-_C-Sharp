@@ -1,0 +1,152 @@
+[Auth-2024-03-05 17:06:47]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:06:49]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:06:49]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:04]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:05]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:30]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:07:31]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:32]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:34]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:07:35]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:03]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:08:03]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:08:12]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:12]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:17]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:08:17]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:08:22]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:22]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:41]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:08:43]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:08:44]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:16]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:16]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:22]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:22]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:39]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:09:42]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:09:48]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:48]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:09:54]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:10:01]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:10:08]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:10:31]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:11:03]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:11:06]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:12:22]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:12:23]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:13:18]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:13:18]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:17:43]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:17:43]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:17:52]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:17:52]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:17:54]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:17:54]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:19:15]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:19:15]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:24:47]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-03-05 17:24:47]    Unlogin     /   http://localhost:49876/api/UserData/GetLicensePath
+
+[Auth-2024-03-05 17:24:53]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:24:54]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:26:27]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:26:27]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:27:49]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:27:51]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:27:51]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:27:52]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:27:58]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:27:58]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:28:35]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:28:55]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:29:01]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:29:02]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:29:06]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:29:16]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:29:17]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:39:53]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:00]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:01]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:04]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:04]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:06]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:40:07]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:40:09]    Unlogin     /   http://localhost:49876/api/Schedule/GetPortList
+
+[Auth-2024-03-05 17:40:13]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-03-05 17:40:13]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+

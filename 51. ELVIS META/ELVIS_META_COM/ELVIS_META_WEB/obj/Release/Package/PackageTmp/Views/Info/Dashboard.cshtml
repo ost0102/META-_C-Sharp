@@ -1,0 +1,380 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">DashBoard</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="dash">
+                        <div class="dash__cont">
+                            <div class="dash-left__cont">
+                                <div class="search_type2">
+                                    <div class="search_cover">
+                                        <div class="cal_ym">
+                                            <button type="button" class="arr left" id="btn_cal_left"></button>
+                                            <span id="cal_date">2022.10</span>
+                                            <button type="button" class="arr right" id="btn_cal_right"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dash__doughnut">
+                                    <p>전체</p>
+                                    <div class="doughnut_canvas">
+                                        <canvas id="Doughnut" width="230" height="230"></canvas>
+                                    </div>
+                                </div>
+                                <div class="dash-graph">
+                                    <div class="dash-graph__box donut">
+                                        <div class="dash-graph__donut">
+                                            @*<p>전체</p>
+                    <div class="dash-donut" id="testdonut"></div>*@
+                                            <!-- 대시바 공식
+                첫번째가 될 항목은 per100으로 고정
+                두번째부터는 비례식 사용하여 퍼센트 비례 퍼센트로 정렬
+                ex) 32%가 100%라면 다음 항목이 26%일 경우
+                     32:100 = 26:x 로 계산하여 반올림
+                     x = 81.25이므로 span 에는 26%가 들어가지만 per 클래스는 per81을 넣어 계산을 해주시면 됩니다
+                -->
+                                            <div class="dash-bar" id="dashBar">
+                                                <div class="dash-bar__line bar-form">
+                                                    <div class="dash-kind">
+                                                        <div class="dash-kind__img">
+                                                            <img src="~/Images/dash_kind_img1.png" />
+                                                        </div>
+                                                        <div class="dash-kind__cont">
+                                                            <p class="dash-kind__title">서식</p>
+                                                            <p class="dash-kind__cnt">20/47건</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dash-value">
+                                                        <div class="dash-bar__title">Progress</div>
+                                                        <div class="dash-progress__bg">
+                                                            <div class="dash-progress">
+                                                                <div class="dash-progress__bar per42"></div>
+                                                            </div>
+                                                            <span>42%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-bar__line bar-estimate">
+                                                    <div class="dash-kind">
+                                                        <div class="dash-kind__img">
+                                                            <img src="~/Images/dash_kind_img2.png" />
+                                                        </div>
+                                                        <div class="dash-kind__cont">
+                                                            <p class="dash-kind__title">견적</p>
+                                                            <p class="dash-kind__cnt">8/15건</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dash-value">
+                                                        <div class="dash-bar__title">Progress</div>
+                                                        <div class="dash-progress__bg">
+                                                            <div class="dash-progress">
+                                                                <div class="dash-progress__bar per53"></div>
+                                                            </div>
+                                                            <span>53%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-bar__line bar-export">
+                                                    <div class="dash-kind">
+                                                        <div class="dash-kind__img">
+                                                            <img src="~/Images/dash_kind_img3.png" />
+                                                        </div>
+                                                        <div class="dash-kind__cont">
+                                                            <p class="dash-kind__title">수출</p>
+                                                            <p class="dash-kind__cnt">320/640건</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dash-value">
+                                                        <div class="dash-bar__title">Progress</div>
+                                                        <div class="dash-progress__bg">
+                                                            <div class="dash-progress">
+                                                                <div class="dash-progress__bar per50"></div>
+                                                            </div>
+                                                            <span>50%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dash-bar__line bar-import">
+                                                    <div class="dash-kind">
+                                                        <div class="dash-kind__img">
+                                                            <img src="~/Images/dash_kind_img4.png" />
+                                                        </div>
+                                                        <div class="dash-kind__cont">
+                                                            <p class="dash-kind__title">수입</p>
+                                                            <p class="dash-kind__cnt">227/542건</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dash-value">
+                                                        <div class="dash-bar__title">Progress</div>
+                                                        <div class="dash-progress__bg">
+                                                            <div class="dash-progress">
+                                                                <div class="dash-progress__bar per41"></div>
+                                                            </div>
+                                                            <span>41%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dash-right__cont">
+                                <div>
+                                    <h2 class="dash-swiper__head">
+                                        [<span>
+                                            양재아이티
+                                        </span>] 님 아래의 화물은 어떠세요?
+                                    </h2>
+                                    <div class="exim-list info" id="eximList">
+                                        <div class="exim-box air">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/air_import_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box air">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/air_export_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box ship">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/ship_import_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box ship">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/ship_export_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box air">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/air_import_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box air">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/air_export_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box ship">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/ship_import_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exim-box ship">
+                                            <div class="exim-icn">
+                                                <img src="~/Images/ship_export_icn.png" />
+                                            </div>
+                                            <div class="exim-inner">
+                                                <div class="exim-cont text-info home">
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POL</div>
+                                                            <p>CHICAGO,IL U.S.A.</p>
+                                                        </div>
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">ITEM</div>
+                                                            <p class="item__name">FRP FLAME DETECTOR AND OTHER PARTS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="exim-cont__info">
+                                                        <div class="exim-cont__inner exim-flex">
+                                                            <div class="exim-cont__title">POD</div>
+                                                            <p>INCHEON AIRPORT, KOREA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="exim-cont doc-info">
+                                                    <button type="button" class="do_estimate">견적하기<img src="~/Images/icn_estimate.png" /></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Morris Donut -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    @Scripts.Render("~/Scripts/Sub/Info/Dashboard.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

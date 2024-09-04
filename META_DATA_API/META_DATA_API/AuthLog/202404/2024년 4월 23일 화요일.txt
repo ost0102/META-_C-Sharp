@@ -1,0 +1,14 @@
+[Auth-2024-04-23 16:42:17]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-04-23 16:42:20]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-04-23 16:42:20]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-04-23 16:42:26]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-04-23 16:42:26]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-04-23 16:47:19]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+
+[Auth-2024-04-23 16:47:20]    MNGT_NO:   20240116133605123495   /   USR_ID:   ekkim@yjit.co.kr   /   Authorization-Token:20240116133605123495|ekkim@yjit.co.kr|1148183347||
+

@@ -1,0 +1,6 @@
+[Auth-2024-09-04 13:44:46]    Unlogin     /   http://localhost:59871/api/UserData/GetUserInfo
+
+[Auth-2024-09-04 13:44:50]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+
+[Auth-2024-09-04 13:44:51]    MNGT_NO:   20221024100200853792   /   USR_ID:   webdev@yjit.co.kr   /   Authorization-Token:20221024100200853792|webdev@yjit.co.kr|1148183347||
+

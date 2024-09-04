@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Format";
+    ViewBag.Sub = "Regist";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container{
+
+<input type="hidden" id="View_TMP_DTL" value="@ViewBag.TMP_DTL" />
+
+<section class="container" id="container">
+    <div class="contents">
+        <div class="logo">
+            <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+            <div class="sub_title">서식 등록</div>
+        </div>
+        <div class="sub_bg">
+            <div class="sub_contents">
+                <!-- format-regist -->
+                <div class="format-regist">
+                    <div class="format-cover">
+                        <div class="format-info">
+                            <div class="format-info__select">
+                                <select class="select" id="DOC_TYPE">
+                                    <option value="CI" selected>C/I</option>
+                                    <option value="PL">P/L</option>
+                                </select>
+                            </div>
+                            <div class="format-info__int int_box flex">
+                                <input type="text" class="upload-name" id="FILE_NM" value="문서를 선택해주세요" disabled />
+                                <label for="formatFile">파일 찾기</label>
+                                <input type="file" id="formatFile" name="files" placeholder="문서를 선택해주세요" />
+                            </div>
+                            <div class="format-info__int int_box flex-sec">
+                                <div class="format-info__int int_box">
+                                    <input type="text" placeholder="문서명을 입력해주세요" id="DOC_NAME" data-index="1" />
+                                    <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                </div>
+                                <div class="format-info__int int_box rmk-padding">
+                                    <textarea id="RMK" data-index="2"></textarea>
+                                </div>
+                            </div>
+                            <div class="format-info__btn">
+                                <button type="button" class="btns add_format" id="DocumentAdd">서식추가</button>
+                            </div>
+                        </div>
+                    <div class="format-preview">
+                        <div class="format-preview__inner">
+                            @*<iframe src="/web/viewer.html?file=/Content/TempFiles/ISLSOSA21050002_6_ISLSOSA21050002_SESS21050085_INV_20210623163404.PDF" id="iframe_test"></iframe>*@
+                            <iframe src="" id="iframe_test"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- format-regist -->
+                <div class="format-regist__btns btn-area">
+                    <button type="button" class="btns prev gray" id="btnPrev">이전</button>
+                    <button type="button" class="btns blue request" id="btnRegist">서식등록</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@Scripts.Render("~/Scripts/Sub/Format.js")
+}

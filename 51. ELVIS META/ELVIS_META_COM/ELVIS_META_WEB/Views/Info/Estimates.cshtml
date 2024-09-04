@@ -1,0 +1,247 @@
+﻿
+@{
+    ViewBag.Title = "Info";
+    ViewBag.Sub = "Estimates";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container shipper_esti" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">견적진행현황</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="cal_ym">
+                                <button type="button" class="arr left" id="btn_cal_left"></button>
+                                <span id="cal_date"></span>
+                                <button type="button" class="arr right" id="btn_cal_right"></button>
+                            </div>
+                            <div class="esti-total">
+                                <div class="esti-total__status total">
+                                    <p class="esti-total__nm">전체</p>
+                                    <button type="button" class="esti-total__desc total"><span id="TOT_CNT"></span> </button>
+                                </div>
+                                <div class="esti-total__status present">
+                                    <p class="esti-total__nm">진행중</p>
+                                    <button type="button" class="esti-total__desc present"><span id="PRE_CNT"></span></button>
+                                </div>
+                                <div class="esti-total__status finished">
+                                    <p class="esti-total__nm">완료</p>
+                                    <button type="button" class="esti-total__desc finished"><span id="COMP_CNT"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- esti_list -->
+                    <div class="esti-list info estimate_s" id="estiList">
+                        @*<div class="esti-cont present">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__stat">진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress"><img src="~/Images/icn_progress.png" />20개 업체 견적 진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__date">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__date_end">
+                                                <span class="esti-cont__date_title">최종견적일</span>
+                                                <span class="esti-cont__date_cont">2022.06.27</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("Inquiry","Estimate")'">상세</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont finished">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__stat">진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress"><img src="~/Images/icn_progress.png" />20개 업체 견적 진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__date">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__date_end">
+                                                <span class="esti-cont__date_title">최종견적일</span>
+                                                <span class="esti-cont__date_cont">2022.06.27</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("Inquiry","Estimate")'">상세</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont present">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__stat">진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress"><img src="~/Images/icn_progress.png" />20개 업체 견적 진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__date">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__date_end">
+                                                <span class="esti-cont__date_title">최종견적일</span>
+                                                <span class="esti-cont__date_cont">2022.06.27</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("Inquiry","Estimate")'">상세</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont finished">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__stat">진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress"><img src="~/Images/icn_progress.png" />20개 업체 견적 진행중</p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__date">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__date_end">
+                                                <span class="esti-cont__date_title">최종견적일</span>
+                                                <span class="esti-cont__date_cont">2022.06.27</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("Inquiry","Estimate")'">상세</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>*@  
+                    </div>
+                    <!-- esti_list -->
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Info/Estimate.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

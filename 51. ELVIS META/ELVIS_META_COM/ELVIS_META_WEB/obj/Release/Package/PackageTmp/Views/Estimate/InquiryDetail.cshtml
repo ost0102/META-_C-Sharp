@@ -1,0 +1,539 @@
+﻿
+@{
+    ViewBag.Title = "Estimate";
+    ViewBag.Sub = "InquiryDetail";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+
+    <script>
+        function fniframeClose() {
+            layerClose('#pdfLayer');
+            $("#iframe_test").attr("src", "");
+        }
+
+    </script>
+    <input type="hidden" id="QUOT_NO" value="@ViewBag.QUOT_NO" />
+    <input type="hidden" id="MNGT_NO" value="@ViewBag.MNGT_NO" />
+    <input type="hidden" id="ELVIS_CRN" value="" />
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">견적상세조회</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents" style="background:#fff; box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);">
+                    <div class="tab_area inq__detail">
+                        <ul class="tab">
+                            <li class="on">견적내역</li>
+                            <li>등록자료내역</li>
+                        </ul>
+                    </div>
+                    <div class="tab_panel inq__dtl">
+                        <div class="panel" style="display:block;">
+                            <!-- S : req-info__seq -->
+                            <div class="req-info__seq inq__detail" style="display:block;">
+                                <div class="req-info__cover">
+                                    <div class="req-info__flex">
+                                        <div class="req-info__desc" style="border-radius:unset;">
+                                            <div class="search_type2">
+                                                <div class="search_cover">
+                                                    <div class="type_value basis0">
+                                                        <div class="switch">
+                                                            <input type="radio" id="swMoney" name="bookingvalue" value="AMT" checked="checked" />
+                                                            <label for="swMoney" class="switch_label">금액</label>
+                                                            <input type="radio" id="swDate" name="bookingvalue" value="PERIOD" />
+                                                            <label for="swDate" class="switch_label">기간</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bk-list">
+                                                <div class="bk-list__cont">
+                                                    <div class="bk-cont air">
+                                                        <div class="bk-cont__img"></div>
+                                                        <div class="bk-cont__desc">
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">상호명</p>
+                                                                    <p id="CUST_NM"></p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">담당자</p>
+                                                                    <p id="CUST_PIC_NM"></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">USD</p>
+                                                                    <p id="FARE_AMT"></p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">KRW</p>
+                                                                    <p id="FARE_LOC_AMT"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-cont__esti">
+                                                            <button class="btns esti_btn">견적서 보기</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bk-list__cont">
+                                                    <div class="bk-cont ship">
+                                                        <div class="bk-cont__img">
+                                                        </div>
+                                                        <div class="bk-cont__desc">
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">상호명</p>
+                                                                    <p>㈜ 일심 로지스타</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">담당자</p>
+                                                                    <p>홍성인 / 010-4674-9060</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">USD</p>
+                                                                    <p>98,999,999</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">KRW</p>
+                                                                    <p>99,999,999</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-cont__esti">
+                                                            <button class="btns esti_btn">견적서 보기</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bk-list__cont">
+                                                    <div class="bk-cont air">
+                                                        <div class="bk-cont__img">
+                                                        </div>
+                                                        <div class="bk-cont__desc">
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">상호명</p>
+                                                                    <p>㈜ 일심 로지스타 코리아 글로벌 오퍼레이션 All Rights Reserved</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">담당자</p>
+                                                                    <p>홍성인 / 010-4674-9060</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">USD</p>
+                                                                    <p>98,999,999</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">KRW</p>
+                                                                    <p>99,999,999</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-cont__esti">
+                                                            <button class="btns esti_btn">견적서 보기</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bk-list__cont">
+                                                    <div class="bk-cont ship">
+                                                        <div class="bk-cont__img">
+                                                        </div>
+                                                        <div class="bk-cont__desc">
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">상호명</p>
+                                                                    <p>㈜ 일심 로지스타 코리아 글로벌 오퍼레이션 All Rights Reserved</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">담당자</p>
+                                                                    <p>홍성인 / 010-4674-9060</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">USD</p>
+                                                                    <p>98,999,999</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">KRW</p>
+                                                                    <p>99,999,999</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-cont__esti">
+                                                            <button class="btns esti_btn">견적서 보기</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bk-list__cont">
+                                                    <div class="bk-cont ship">
+                                                        <div class="bk-cont__img">
+                                                        </div>
+                                                        <div class="bk-cont__desc">
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">상호명</p>
+                                                                    <p>㈜ 일심 로지스타 코리아 글로벌 오퍼레이션 All Rights Reserved</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">담당자</p>
+                                                                    <p>홍성인 / 010-4674-9060</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-desc">
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">USD</p>
+                                                                    <p>98,999,999</p>
+                                                                </div>
+                                                                <div class="bk-desc__inner">
+                                                                    <p class="bk-desc__title">KRW</p>
+                                                                    <p>99,999,999</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-cont__esti">
+                                                            <button class="btns esti_btn">견적서 보기</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__flex">
+                                        <h3 class="req-info__title" style="padding-left:20px; padding-top:20px;">부킹요청</h3>
+                                        <div class="req-info__desc" style="background:#fff; padding-top:0;">
+                                            <div class="bk-detail">
+                                                <div class="bk-detail__cont">
+                                                    <div class="bk-detail__inner flex-column">
+                                                        <div class="bk-detail__logo">
+                                                            <div id="FRT_IMG"></div>
+                                                            <img src="~/Images/logo/KMTC.png" />
+                                                            <div class="bk-detail__btn">
+                                                                <button type="button" class="btns bk-btn" id="btn_booking">부킹요청</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bk-detail__info">
+                                                            <div class="bk-info__inner">
+                                                                <p class="bk-info__title">출발</p>
+                                                                <p id="FRT_POL">Shanghai, China <span>2020.09.23(Thu)</span></p>
+                                                                <div class="bk-info__inner padding-left">
+                                                                    <p class="bk-info__title">도착</p>
+                                                                    <p id="FRT_POD">Busan, Korea <span>2021.09.23(Wed)</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bk-info__inner">
+                                                                <p class="bk-info__title" id="VSL_TXT">Vsl</p>
+                                                                <p id="VSL">COSCO SHIPPING HIMALAYA</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bk-esti">
+                                                        <div class="bk-esti__head">
+                                                            <p>운임코드</p>
+                                                            <p>운임명</p>
+                                                            <p>화폐</p>
+                                                            <p>금액</p>
+                                                        </div>
+                                                        <div class="bk-esti__body" id="Frt_List">
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>OCEAN FREIGHT CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>TERMINAL HANDLING CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>OCEAN FREIGHT CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>TERMINAL HANDLING CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>OCEAN FREIGHT CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>TERMINAL HANDLING CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>OCEAN FREIGHT CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                            <div class="bk-esti__cont">
+                                                                <p><span class="s_mo">운임코드</span>OFC</p>
+                                                                <p><span class="s_mo">운임명</span>TERMINAL HANDLING CHARGE</p>
+                                                                <p><span class="s_mo">화폐</span>KRW</p>
+                                                                <p><span class="s_mo">금액</span>1,170,100</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- E : req-info__seq -->
+                        </div>
+                        <div class="panel">
+                            <!-- S : req-info__seq -->
+                            <div class="req-info__seq inq__detail" style="display:block;">
+                                <div class="req-info__cover">
+                                    <div class="req-info__flex">
+                                        <div class="req-info__desc">
+                                            <div class="req-info__sort">해운</div>
+                                            <div class="req-doc__info">
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">출발지</p>
+                                                    <p id="DT_POL_NM"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">출발요청일</p>
+                                                    <p id="DT_ETD"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">도착지</p>
+                                                    <p id="DT_POD_NM"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">도착요청일</p>
+                                                    <p id="DT_ETA"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">품목명</p>
+                                                    <p id="DT_ITEM_NM"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">총수량</p>
+                                                    <p id="DT_TOT_PKG"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">총중량</p>
+                                                    <p id="DT_TOT_GRS_WGT"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">총부피</p>
+                                                    <p id="DT_TOT_VOL_WGT"></p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title remark"><span>비고</span></p>
+                                                    <p id="DT_TOT_RMK"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-info__two" id="FILE_LIST">
+                                            <div class="req-info__desc">
+                                                <p class="req-doc__nm">C/I</p>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">서식명</p>
+                                                    <p>XXXXXX_XXXX_XXXX_XXXX.pdf</p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">파일명</p>
+                                                    <p>TYPE_B_JIOO_JBLA1904012_CI_TYPE_B_JIOO_JBLA1904012_CI</p>
+                                                </div>
+                                            </div>
+                                            <div class="req-info__desc">
+                                                <p class="req-doc__nm">P/L</p>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">서식명</p>
+                                                    <p>XXXXXX_XXXX_XXXX_XXXX.pdf</p>
+                                                </div>
+                                                <div class="req-doc__desc">
+                                                    <p class="req-doc__title">파일명</p>
+                                                    <p>TYPE_B_JIOO_JBLA1904012_CI_TYPE_B_JIOO_JBLA1904012_CI</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__flex">
+                                        <div class="req-info__desc result">
+                                            <div class="req-result__title">
+                                                <h4>대표샘플명</h4>
+                                                <div class="req-title__sample">
+                                                    <div class="req-sample">
+                                                        <p class="req-sample__title">이름</p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="req-sample">
+                                                        <p class="req-sample__title">내용</p>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="req-result__field">
+                                                <h4>필드</h4>
+                                                <div class="req-field__list">
+                                                    <div class="req-field__head">
+                                                        <p>판독영역</p>
+                                                        <p>이름</p>
+                                                        <p>내용</p>
+                                                    </div>
+                                                    <div class="req-field__body" id="OCR_LIST">
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드01</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드02</p>
+                                                            <p><span class="s_mo">이름</span>InvNo</p>
+                                                            <p><span class="s_mo">내용</span>ZC20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드03</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>Address: #313, Gasan  digital 2 ro 123, Geumcheon-gu, Seoul</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드01</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드02</p>
+                                                            <p><span class="s_mo">이름</span>InvNo</p>
+                                                            <p><span class="s_mo">내용</span>ZC20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드03</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>Address: #313, Gasan  digital 2 ro 123, Geumcheon-gu, Seoul</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드01</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드02</p>
+                                                            <p><span class="s_mo">이름</span>InvNo</p>
+                                                            <p><span class="s_mo">내용</span>ZC20210601</p>
+                                                        </div>
+                                                        <div class="req-field__cont">
+                                                            <p><span class="s_mo">판독영역</span>필드03</p>
+                                                            <p><span class="s_mo">이름</span>Date</p>
+                                                            <p><span class="s_mo">내용</span>Address: #313, Gasan  digital 2 ro 123, Geumcheon-gu, Seoul</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- S : btn-area -->
+                <div class="req-info__btns btn-area">
+                    <button type="button" class="btns blue" onclick="location.href='@Url.Action("Inquiry","Estimate")'">목록</button>
+                </div>
+                <!-- E : btn-area -->
+            </div>
+        </div>
+    </section>
+    <div class="layer_zone fwd_layer" id="forwarderLayer">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <div class="layer_cont">
+                    <div class="fwd">
+                        <div class="fwd-left">
+                            <div class="fwd-port">
+                                <div class="fwd-port__cont">
+                                    <p class="fwd-port__title">POL</p>
+                                    <p>Busan, Korea</p>
+                                </div>
+                                <div class="fwd-port__cont">
+                                    <p class="fwd-port__title">POD</p>
+                                    <p>Auckland, Newzealand</p>
+                                </div>
+                            </div>
+                            <div class="fwd-volume">
+                                <h3 class="fwd-volume__title">물동량</h3>
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>B/L 진행건수</p>
+                                        <p class="fwd-volume__num">1,234</p>
+                                    </div>
+                                    <div id="chart1"></div>
+                                </div>
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>물동량(RTON)</p>
+                                        <p class="fwd-volume__num">698</p>
+                                    </div>
+                                    <div id="chart2"></div>
+                                </div>
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>물동량(TEU)</p>
+                                        <p class="fwd-volume__num">1,235</p>
+                                    </div>
+                                    <div id="chart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fwd-right">
+                            <div class="fwd-company">
+                                <div class="fwd-company__logo"><img src="~/Images/logo/KMTC.png" /></div>
+                                <div class="fwd-company__info">
+                                    <h3 class="fwd-company__title">㈜ KMTC 고려해운</h3>
+                                    <div class="fwd-company__desc">
+                                        <p>Addr. KMTC 고려해운 주소영역 주소1, 주소2, 주소3</p>
+                                        <p><span>Tel. XX-XXX-XXXX</span><span>Email. abcdef@kmtc.co.kr</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fwd-company__cont">
+                                <h3 class="fwd-company__title">업체소개자료</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btns close2" onclick="layerClose('#forwarderLayer');"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer_zone pdf-layer" id="pdfLayer" style="z-index:10001">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <div class="pdf-layer__cont">
+                        <iframe src="" id="iframe_test"></iframe>
+                    </div>
+                    <button type="button" class="btns close2" id="" onclick="fniframeClose()"><span class="blind">닫기</span></button>
+                </article>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/Scripts/Sub/Estimate/InquiryDetail.js")
+}

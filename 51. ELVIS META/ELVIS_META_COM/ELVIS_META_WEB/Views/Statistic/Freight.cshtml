@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Statistic";
+    ViewBag.Sub = "Freight";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container freight" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">해상운임추이</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="cal_ym" style="margin-right:10px;">
+                                <button type="button" class="arr left" id="btn_cal_left"></button>
+                                <span id="cal_date"></span>
+                                <button type="button" class="arr right" id="btn_cal_right"></button>
+                            </div>
+                            <div class="type_value" id="AC_POL_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POL" class="icn_port" placeholder="출발지" autocomplete="off" data-index="2">
+                                    <button type="button" class="btns icon delete right" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_POLCD">
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POD_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POD" class="icn_port" placeholder="도착지" autocomplete="off" data-index="3">
+                                    <button type="button" class="btns icon delete right" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_PODCD">
+                                </div>
+                            </div>
+                            <select class="select" id="CNTR_SIZE">
+                                <option value="20,40">컨테이너 타입</option>
+                                <option value="20">20ft</option>
+                                <option value="40">40ft</option>
+                            </select>
+                            <div class="type_value no_flex">
+                                <button type="button" class="btn_search" id="btn_search">조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <div class="trend_table" id="div_FreightArea" @*style="display:none"*@>
+                        <div id="trend_graph"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Statistics/Freight.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

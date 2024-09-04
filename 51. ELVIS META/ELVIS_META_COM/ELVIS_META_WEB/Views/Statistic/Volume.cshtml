@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Statistic";
+    ViewBag.Sub = "Volume";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">지역별(국가) 물동량</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2 volume">
+                        <div class="search_cover">
+                            <div class="cal_ym pb-10" style="margin-right:10px;">
+                                <button type="button" class="arr left" id="btn_cal_left"></button>
+                                <span id="cal_date">2022.10</span>
+                                <button type="button" class="arr right" id="btn_cal_right"></button>
+                            </div>
+                            <select class="select" id="EX_IM_TYPE">
+                                <option value="E">Export</option>
+                                <option value="I">Import</option>
+                            </select>
+                            <div class="type_value no_flex">
+                                <button type="button" class="btn_search" id="btnSearch" onclick="fnMovePage('LOC_TIT')">조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- map_area -->
+                    <div style="background: #fff; box-shadow: 4px 4px 10px rgba(0,0,0,0.2); padding-bottom:30px; border-radius:4px;">
+                        <div class="sheet_cover">
+                            <div class="sheet">
+                                <div class="sheet_info">
+                                    <p class="title">해운 B/L</p>
+                                    <p id="SEA_BL_CNT">@*<span>10,572 /</span> <br />16,520 건*@</p>
+                                </div>
+                                <div id="sheet_graph1"></div>
+                            </div>
+                            <div class="sheet">
+                                <div class="sheet_info">
+                                    <p class="title">해운 물동량(Rton)</p>
+                                    <p id="SEA_CON_CNT">@*<span>9,003 /</span> <br />16,520 Rton*@</p>
+                                </div>
+                                <div id="sheet_graph2"></div>
+                            </div>
+                            <div class="sheet">
+                                <div class="sheet_info">
+                                    <p class="title">항공 AWB</p>
+                                    <p id="AIR_AWB_CNT">@*<span>1,710 /</span> <br />3,000 건*@</p>
+                                </div>
+                                <div id="sheet_graph3"></div>
+                            </div>
+                            <div class="sheet">
+                                <div class="sheet_info">
+                                    <p class="title">항공 물동량(CBM)</p>
+                                    <p id="AIR_CON_CNT">@*<span>26,538 /</span> <br />32,364 CBM*@</p>
+                                </div>
+                                <div id="sheet_graph4"></div>
+                            </div>
+                        </div>
+                        <div style="max-width:1270px; width:100%; margin:0 auto;">
+                            <h2 class="sheet_title">
+                                <span id="LOC_TIT">Shanghai, China</span>
+                                <span class="sheet_status">
+                                    <img src="~/Images/status02.png" />
+                                </span>
+                            </h2>
+                            <div class="map_area">
+                                <div class="map" id="main_map"></div>
+                            </div>
+                        </div>
+                    </div>                
+                    <!-- map_area -->
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Statistics/Volume.js")
+}

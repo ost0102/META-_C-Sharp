@@ -1,0 +1,152 @@
+[GetUserInfo ----2024-04-19 15:59:41]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetRecommendQuot ----2024-04-19 15:59:43]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetDashBoardInfo ----2024-04-19 15:59:43]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04"
+  }
+]
+
+[GetExImList ----2024-04-19 15:59:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "I",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "S",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426"
+  }
+]
+
+[GetUserInfo ----2024-04-19 16:01:50]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$##"
+  }
+]
+
+[GetUserInfo ----2024-04-19 16:01:55]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetFDashBoardInfo ----2024-04-19 16:01:56]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04"
+  }
+]
+
+[GetFQuotList ----2024-04-19 16:01:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg=="
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:01:59]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:03:46]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:05:54]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:15:26]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:17:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:29:06]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240401",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationFList ----2024-04-19 16:30:50]    Parameter:   [
+  {
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240426",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+

@@ -1,0 +1,950 @@
+[GetUserInfo ----2024-01-24 10:46:44]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:21]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231101",
+    "TO_YMD": "20231130"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:22]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231001",
+    "TO_YMD": "20231031"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:23]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230901",
+    "TO_YMD": "20230930"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230801",
+    "TO_YMD": "20230831"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230701",
+    "TO_YMD": "20230731"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230601",
+    "TO_YMD": "20230630"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230501",
+    "TO_YMD": "20230531"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230401",
+    "TO_YMD": "20230430"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230301",
+    "TO_YMD": "20230331"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230201",
+    "TO_YMD": "20230228"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230101",
+    "TO_YMD": "20230131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:35:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20221201",
+    "TO_YMD": "20221231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:24]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231101",
+    "TO_YMD": "20231130"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231001",
+    "TO_YMD": "20231031"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230901",
+    "TO_YMD": "20230930"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230801",
+    "TO_YMD": "20230831"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230701",
+    "TO_YMD": "20230731"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230601",
+    "TO_YMD": "20230630"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230501",
+    "TO_YMD": "20230531"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:29]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230401",
+    "TO_YMD": "20230430"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230301",
+    "TO_YMD": "20230331"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:30]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230201",
+    "TO_YMD": "20230228"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230101",
+    "TO_YMD": "20230131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:37:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20221201",
+    "TO_YMD": "20221231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:37]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:38]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:39]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231101",
+    "TO_YMD": "20231130"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:40]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231001",
+    "TO_YMD": "20231031"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230901",
+    "TO_YMD": "20230930"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:41]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230801",
+    "TO_YMD": "20230831"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:42]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230701",
+    "TO_YMD": "20230731"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:42]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230601",
+    "TO_YMD": "20230630"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:43]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230501",
+    "TO_YMD": "20230531"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:43]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230401",
+    "TO_YMD": "20230430"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230301",
+    "TO_YMD": "20230331"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230201",
+    "TO_YMD": "20230228"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230101",
+    "TO_YMD": "20230131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:38:45]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20221201",
+    "TO_YMD": "20221231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:14]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:15]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231201",
+    "TO_YMD": "20231231"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:15]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231101",
+    "TO_YMD": "20231130"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20231001",
+    "TO_YMD": "20231031"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230901",
+    "TO_YMD": "20230930"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230801",
+    "TO_YMD": "20230831"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:16]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230701",
+    "TO_YMD": "20230731"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230601",
+    "TO_YMD": "20230630"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230501",
+    "TO_YMD": "20230531"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:17]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230401",
+    "TO_YMD": "20230430"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230301",
+    "TO_YMD": "20230331"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:18]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230201",
+    "TO_YMD": "20230228"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20230101",
+    "TO_YMD": "20230131"
+  }
+]
+
+[GetExImList ----2024-01-24 11:39:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20221201",
+    "TO_YMD": "20221231"
+  }
+]
+
+[GetUserInfo ----2024-01-24 11:48:26]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetDashBoardInfo ----2024-01-24 11:48:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01"
+  }
+]
+
+[GetRecommendQuot ----2024-01-24 11:48:28]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:31]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:48:34]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:48:35]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetail ----2024-01-24 11:48:38]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT"
+  }
+]
+
+[GetQuotationFreight ----2024-01-24 11:48:38]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "MNGT_NO": "QUOTGOV202211040001"
+  }
+]
+
+[GetOcrData ----2024-01-24 11:48:38]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792"
+  }
+]
+
+[GetExImDocPath ----2024-01-24 11:48:38]    Parameter:   [
+  {
+    "QUOT_NO": "QUOT221103184624495",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "ORDER_TYPE": "AMT",
+    "OCR_NO": "OCR221103184624792",
+    "MNGT_NO": "QUOT221103184624495",
+    "DOC_TYPE": "CI,PL"
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:48:41]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:44]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:47]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetExImList ----2024-01-24 11:48:50]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "EX_IM_TYPE": "E,I",
+    "YMD_TYPE": "ETD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:48:51]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20240101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:48:55]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:56]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "CI"
+  }
+]
+
+[GetTemplateList ----2024-01-24 11:48:57]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "APV_YN": "Y",
+    "TMPLT_TYPE": "PL"
+  }
+]
+
+[GetQuotationList ----2024-01-24 11:49:00]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetQuotationDetailList ----2024-01-24 11:49:01]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-01-24 11:49:04]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-01-24 11:49:05]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetQuotationDetailList ----2024-01-24 11:49:06]    Parameter:   [
+  {
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "CRN": "1148183347",
+    "QUOT_NO": "QUOT221103184624495",
+    "REQ_SVC": "SEA"
+  }
+]
+
+[GetUserInfo ----2024-01-24 11:49:26]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetExImList ----2024-01-24 13:27:09]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "REQ_SVC": "SEA",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "F",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 13:30:05]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "REQ_SVC": "AIR",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "F",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 13:30:15]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "REQ_SVC": "SEA",
+    "EX_IM_TYPE": "I",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "F",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetExImList ----2024-01-24 13:30:21]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "REQ_SVC": "AIR",
+    "EX_IM_TYPE": "I",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "USR_TYPE": "F",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240131"
+  }
+]
+
+[GetUserInfo ----2024-01-24 13:32:22]    Parameter:   [
+  {
+    "USR_ID": "webdev@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetDashBoardInfo ----2024-01-24 13:32:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01"
+  }
+]
+
+[GetRecommendQuot ----2024-01-24 13:32:25]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+
+[GetTemplateList ----2024-01-24 14:21:38]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221024100200853792^webdev@yjit.co.kr^AbxwStuWFBMhZSy7lFqYxyKxcUnsDlH1m4+BFMXh45awhN3hfxPR0M2VAZouKVjok8PCFJMOMJVgbyEolTx9tQ=="
+  }
+]
+

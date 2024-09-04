@@ -1,0 +1,313 @@
+﻿
+@{
+    ViewBag.Title = "Estimate";
+    ViewBag.Sub = "Regist";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <input type="hidden" id="QUOT_NO" value="@ViewBag.QUOT_NO" />
+    <section class="container regist" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">견적등록</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="type_value flex">
+                                <div class="int_box" style="width:50%;">
+                                    <input type="text" class="cal_date icn_calendar" placeholder="출발일" id="ETD" maxlength="10" data-index="1"/>
+                                </div>
+                                <span>~</span>
+                                <div class="int_box" style="width:50%;">
+                                    <input type="text" class="cal_date icn_calendar" placeholder="도착일" id="ETA" maxlength="10" data-index="2"/>
+                                </div>
+                            </div>
+                            <div class="type_value no_flex">
+                                <select class="select" id="REQ_SVC">
+                                    <option value="">전체</option>
+                                    <option value="SEA">해운</option>
+                                    <option value="AIR">항공</option>
+                                </select>
+                            </div>
+                            <div class="type_value" id="AC_POL_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POL" class="icn_port" placeholder="출발지" autocomplete="off" data-index="3" disabled>
+                                    <button type="button" class="btns icon delete right" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_POLCD">
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POD_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POD" class="icn_port" placeholder="도착지" autocomplete="off" data-index="4" disabled>
+                                    <button type="button" class="btns icon delete right" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_PODCD">
+                                </div>
+                            </div>
+                            <div class="type_value no_flex last">
+                                <button type="button" class="btn_search" id="btn_search" onclick="fnMovePage('estiList')">조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- esti_list -->
+                    <div class="esti-list" id="estiList">
+                        <div class="esti-cont regist">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress inquiry"><img src="~/Images/icn_progress.png" /></p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="esti-cont__date flex-column">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">품목명</span>
+                                                    <span class="esti-cont__etc_cont">cumputer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="flex-column">
+                                            <div class="esti-cont__date_file">
+                                                <span class="esti-cont__etc_title">문서</span>
+                                                <span class="esti-cont__etc_cont"><span class="doc_type1">C/I</span>,<span class="doc_type2">P/L</span></span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">담당자</span>
+                                                    <span class="esti-cont__etc_cont">담당자</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("RegistDetail","Estimate")'">등록</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont regist">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress inquiry"><img src="~/Images/icn_progress.png" /></p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="esti-cont__date flex-column">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">품목명</span>
+                                                    <span class="esti-cont__etc_cont">cumputer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="flex-column">
+                                            <div class="esti-cont__date_file">
+                                                <span class="esti-cont__etc_title">문서</span>
+                                                <span class="esti-cont__etc_cont"><span class="doc_type1">C/I</span>,<span class="doc_type2">P/L</span></span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">담당자</span>
+                                                    <span class="esti-cont__etc_cont">담당자</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("RegistDetail","Estimate")'">등록</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont regist">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress inquiry"><img src="~/Images/icn_progress.png" /></p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="esti-cont__date flex-column">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">품목명</span>
+                                                    <span class="esti-cont__etc_cont">cumputer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="flex-column">
+                                            <div class="esti-cont__date_file">
+                                                <span class="esti-cont__etc_title">문서</span>
+                                                <span class="esti-cont__etc_cont"><span class="doc_type1">C/I</span>,<span class="doc_type2">P/L</span></span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">담당자</span>
+                                                    <span class="esti-cont__etc_cont">담당자</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("RegistDetail","Estimate")'">등록</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="esti-cont regist">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Busan, Korea</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.22(Wed)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress inquiry"><img src="~/Images/icn_progress.png" /></p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p>Auckland, Newzealand</p></div>
+                                            <div class="esti-cont__desc2"><p>2023.09.23(Thu)</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="esti-cont__date flex-column">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont">2022.06.15</span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">품목명</span>
+                                                    <span class="esti-cont__etc_cont">cumputer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="flex-column">
+                                            <div class="esti-cont__date_file">
+                                                <span class="esti-cont__etc_title">문서</span>
+                                                <span class="esti-cont__etc_cont"><span class="doc_type1">C/I</span>,<span class="doc_type2">P/L</span></span>
+                                            </div>
+                                            <div class="esti-cont__etc">
+                                                <div class="esti-cont__etc_item">
+                                                    <span class="esti-cont__etc_title">담당자</span>
+                                                    <span class="esti-cont__etc_cont">담당자</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <button type="button" class="btns esti_dtl" onclick="location.href = '@Url.Action("RegistDetail","Estimate")'">등록</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- esti_list -->
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Estimate/Regist.js")
+}

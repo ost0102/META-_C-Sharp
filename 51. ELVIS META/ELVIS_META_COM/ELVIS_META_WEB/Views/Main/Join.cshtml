@@ -1,0 +1,297 @@
+﻿
+@{
+    ViewBag.Title = "Join";
+    Layout = "~/Views/Shared/_LayoutJoin.cshtml";
+}
+@section Container {
+    <section class="container">
+        <div class="inner join">
+            <h2 class="join-title">회원가입</h2>
+            <div class="join-status">
+                <div class="mo_top">
+                    <div class="join-status__info on status1">
+                        <div class="join-status__num">고객유형<br />선택</div>
+                    </div>
+                    <div class="join-status__info status2">
+                        <div class="join-status__num">사용서비스<br />선택</div>
+                    </div>
+                </div>
+                <div class="mo_bottom">
+                    <div class="join-status__info status3">
+                        <div class="join-status__num">회원정보<br />입력</div>
+                    </div>
+                    <div class="join-status__info status4">
+                        <div class="join-status__num">최종<br />정보확인</div>
+                    </div>
+                </div>
+            </div>
+            <div class="join-in">
+                <div class="join-in__box first">
+                    <p>고객님의 유형을 선택해 주세요.</p>
+                    <div class="join-info">
+                        <div class="join-type">
+                            <div class="join-type__box join_type1 join_type" id="SHP">
+                                <p>화주</p>
+                            </div>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type join_type2" id="EXE">
+                                <p>물류실행사</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <button class="btns blue mini next">다음</button>
+                    </div>
+                </div>
+                <!-- 화주 -->
+                <div class="join-in__box second shipper">
+                    <p><span>[화주]</span>님이 원하는 사용 서비스를 선택해주세요</p>
+                    <div class="join-info">
+                        <div class="join-type">
+                            <div class="join-type__box join_type1 joinServ">
+                                <p>서식</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type2 joinServ">
+                                <p>견적</p>
+                            </div>
+                            <p class="type_info">관련문서<br />견적요청 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type3 joinServ">
+                                <p>수출</p>
+                            </div>
+                            <p class="type_info">관련문서<br />다운로드 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type4 joinServ">
+                                <p>수입</p>
+                            </div>
+                            <p class="type_info">관련문서<br />다운로드 건당 100원 청구</p>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <button class="btns gray mini prev">이전</button>
+                        <button class="btns blue mini next">다음</button>
+                    </div>
+                </div>
+                <!-- 화주 -->
+                <!-- 실행사 -->
+                <div class="join-in__box second execution">
+                    <p><span>[물류실행사]</span>님이 원하는 사용 서비스를 선택해주세요</p>
+                    <div class="join-info">
+                        <div class="join-type">
+                            <div class="join-type__box join_type1 joinServ">
+                                <p>견적</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type2 joinServ">
+                                <p>해운수출</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type3 joinServ">
+                                <p>해운수입</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type4 joinServ">
+                                <p>항공수출</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                        <div class="join-type">
+                            <div class="join-type__box join_type5 joinServ">
+                                <p>항공수입</p>
+                            </div>
+                            <p class="type_info">관련문서<br />등록 건당 100원 청구</p>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <button class="btns gray mini prev">이전</button>
+                        <button class="btns blue mini next">다음</button>
+                    </div>
+                </div>
+                <!-- 실행사 -->
+                <div class="join-in__box third">
+                    <p>입력하신 정보는 회원님의 동의없이 공개되지 않으며, 개인정보보호정책에 의해서 보호를 받습니다.<br /><span class="red">*</span> 표시는 필수입력 입니다.</p>
+                    <div class="join-info">
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>아이디 (이메일)</p>
+                            <div class="int_box">
+                                <input type="text" id="RES_EMAIL" placeholder="이메일을 입력하세요" maxlength="30" />
+                                <p class="incorrect_txt Span_Warning error" id="Email_Empty" style="display: none">이메일을 적어주세요.</p>
+                                <p class="incorrect_txt Span_Warning error" id="Email_Warning" style="display: none">이메일 형식을 맞춰서 입력해주세요. EX)abc@naver.com </p>
+                                <p class="incorrect_txt Span_Warning error" id="Email_SCWarning" style="display: none">특수기호(*,%,&amp;,+,\,:,',&lt;,&gt;,/)는 사용 할 수 없습니다.</p>
+                                <p class="incorrect_txt Span_Warning error" id="Email_CheckID" style="display: none">이미 사용중인 이메일 입니다.</p>
+                                <p class="incorrect_txt Span_Warning error" id="Email_Refuser" style="display: none">거절 된 아이디 입니다. 담당자에게 문의하세요</p>
+                                <input type="hidden" id="Email_Hidden" value="false" />
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>비밀번호</p>
+                            <div class="int_box">
+                                <input type="password" id="RES_PWD" placeholder="영문 대/소문자, 숫자, 특수문자를 조합해주세요" maxlength="20" />
+                                <p class="incorrect_txt Span_Warning error" id="PW1_Empty" style="display: none">비밀번호를 입력 해 주세요.</p>
+                                <p class="text02 Span_Warning error" id="PW1_OverSix" style="display: none">비밀번호를 8자리 이상 입력 해 주세요..</p>
+                                <p class="incorrect_txt Span_Warning error" id="PW1_Regular" style="display: none"> 영문, 숫자, 특수문자 조합으로 비밀번호를 입력 해 주세요.</p>
+                                <input type="hidden" id="PW1_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>비밀번호 확인</p>
+                            <div class="int_box">
+                                <input type="password" id="RES_PWD2" placeholder="비밀번호를 한 번 더 입력해주세요" maxlength="20" />
+                                <p class="incorrect_txt Span_Warning error" id="PW2_Empty" style="display: none">비밀번호를 입력 해 주세요.</p>
+                                <p class="text02 Span_Warning error" id="PW2_OverSix" style="display: none">비밀번호를 6자리 이상 입력 해 주세요.</p>
+                                <p class="incorrect_txt Span_Warning error" id="PW2_Compare" style="display: none"> 비밀번호가 같지 않습니다. 확인하고 다시 입력 해 주세요.</p>
+                                <p class="incorrect_txt Span_Warning error" id="PW2_Regular" style="display: none"> 영문, 숫자, 특수문자 조합으로 비밀번호를 입력 해 주세요.</p>
+                                <input type="hidden" id="PW2_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>담당자 명</p>
+                            <div class="int_box">
+                                <input type="text" id="RES_NAME" placeholder="담당자 명을 입력하세요" maxlength="30" />
+                                <p class="incorrect_txt Span_Warning error" id="NAME_Empty" style="display: none">담당자 명을 입력 해 주세요.</p>
+                                <p class="text02 Span_Warning error" id="NAME_OverTwo" style="display: none">담당자 명을 2자리 이상 적어주세요.</p>
+                                <input type="hidden" id="NAME_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>담당자 (휴대전화)</p>
+                            <div class="int_box">
+                                <input type="text" id="RES_TEL" placeholder="휴대전화 번호를 입력하세요" maxlength="20" />
+                                <p class="incorrect_txt Span_Warning error" id="TEL_Empty" style="display: none">휴대폰번호를 입력 해 주세요.</p>
+                                <p class="text02 Span_Warning error" id="TEL_NotNumber" style="display: none">숫자를 입력 해 주세요.</p>
+                                <input type="hidden" id="TEL_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자명 (KOR)</p>
+                            <div class="int_box">
+                                <input type="text" id="CUST_NM" placeholder="사업자명을 한글로 입력하세요" maxlength="20" />
+                                <p class="incorrect_txt Span_Warning error" id="CUST_Empty" style="display: none">사업자명을 입력해주세요.</p>
+                                <input type="hidden" id="CustNAME_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자등록번호</p>
+                            <div class="int_box">
+                                <input type="text" id="RES_CRN" placeholder="사업자등록번호를 입력하세요" maxlength="10" />
+                                <p class="incorrect_txt Span_Warning error" id="CRN_NO" style="display: none">사업자번호를 입력해주세요.</p>
+                                <input type="hidden" id="CRN_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자등록증 사본</p>
+                            <div class="int_box flex">
+                                <label for="businessCopy">파일 찾기</label>
+                                <input type="file" id="businessCopy" name="files" placeholder="사업자등록증 사본을 추가해주세요" />
+                                <input class="upload-name" id="Elvis_Crn_FileName" value="사업자등록증 사본" disabled />
+                                <p class="incorrect_txt Span_Warning error" id="crnFile_empty" style="display: none">사업자등록증을 추가해주세요.</p>
+                                <input type="hidden" id="FILE_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box RegistExecut">
+                            <p><span class="red">*</span>엘비스 도메인</p>
+                            <div class="int_box">
+                                <input type="text" id="Domain" placeholder="도메인정보를 입력하세요" maxlength="20" />
+                                <p class="incorrect_txt Span_Warning error" id="Domain_Empty" style="display: none">도메인정보를 입력해주세요.</p>
+                                <input type="hidden" id="Domain_Hidden" value="false">
+                            </div>
+                        </div>
+                        <div class="join-info__box RegistExecut">
+                            <p><span class="red">*</span>업체 소개 자료</p>
+                            <div class="int_box flex">
+                                <label for="CompanyIntro">파일 찾기</label>
+                                <input type="file" id="CompanyIntro" name="custfiles" placeholder="업체소개자료를 추가해주세요" />
+                                <input class="upload-name" id="CompanyIntro_FileName" value="" disabled />
+                                <p class="incorrect_txt Span_Warning error" id="CompanyIntro_empty" style="display: none">업체소개자료를 추가해주세요.</p>
+                                <input type="hidden" id="CompanyIntro_Hidden" value="false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <button class="btns gray mini prev">이전</button>
+                        <button class="btns blue mini next">다음</button>
+                    </div>
+                </div>
+                <div class="join-in__box fourth">
+                    <div class="join-info-result__box">
+                        <div class="join-info-result">
+                            <div class="info-result__list" id="choiceSvc">
+                                @*<div class="list-info join_sort">
+                                    <p>화주</p>
+                                </div>*@
+                                @*<div class="list-info">
+                                    <p>정보서비스</p>
+                                </div>*@
+                                @*<div class="list-info">
+                                    <p>견적</p>
+                                </div>
+                                <div class="list-info">
+                                    <p>수입</p>
+                                </div>
+                                <div class="list-info">
+                                    <p>스케줄</p>
+                                </div>*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="join-info">
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>아이디 (이메일)</p>
+                            <div class="int_box">
+                                <input type="text" id="LastEmail" disabled />
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>담당자 명</p>
+                            <div class="int_box">
+                                <input type="text" id="LastName" disabled>
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>담당자 (휴대전화)</p>
+                            <div class="int_box">
+                                <input type="text" id="LastTel" disabled>
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자명 (KOR)</p>
+                            <div class="int_box">
+                                <input type="text" id="LastCustNm" disabled>
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자등록번호</p>
+                            <div class="int_box">
+                                <input type="text" id="LastCustCrn" disabled>
+                            </div>
+                        </div>
+                        <div class="join-info__box">
+                            <p><span class="red">*</span>사업자등록증 사본</p>
+                            <div class="int_box">
+                                <input type="text" id="LastFile" disabled>
+                                <a class="file_download" download>다운로드</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-area" style="display:flex; justify-content:center; align-items:center;">
+                        <button class="btns gray mini prev">이전</button>
+                        <button type="button" class="btn_submit" id="btn_Regester">회원가입</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Main/Join.js")
+}

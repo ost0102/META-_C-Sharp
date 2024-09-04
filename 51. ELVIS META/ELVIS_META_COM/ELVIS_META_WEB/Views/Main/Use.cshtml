@@ -1,0 +1,251 @@
+﻿
+@{
+    ViewBag.Title = "Use";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@section Container {
+
+    <div id="cal_date" style="display:none;"></div>
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="use-box">
+                        <h4 class="use_title">월별사용현황</h4>
+                        <div class="use_box situation">
+                            <div class="use_cont">
+                                <div class="use_graph__chart">
+                                    <div class="use_graph-chart" id="UseGraph"></div>
+                                </div>
+                                <div class="use-progress">
+                                    <div class="use-progress_area">
+                                        <div class="dash-progress__bg use_service" id="CHK_DOCU" style="display:none">
+                                            <span class="progress_title">서식</span>
+                                            <div class="dash-progress">
+                                                <div id="DOCU_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="DOCU_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_estimate" id="CHK_QUOT" style="display:none">
+                                            <span class="progress_title">견적</span>
+                                            <div class="dash-progress">
+                                                <div id="QUOT_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="QUOT_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_export" id="CHK_EX" style="display:none">
+                                            <span class="progress_title">수출</span>
+                                            <div class="dash-progress">
+                                                <div id="EX_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="EX_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_import" id="CHK_IM" style="display:none">
+                                            <span class="progress_title">수입</span>
+                                            <div class="dash-progress">
+                                                <div id="IM_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="IM_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_export" id="CHK_SEA_EX" style="display:none">
+                                            <span class="progress_title">해운수출</span>
+                                            <div class="dash-progress">
+                                                <div id="SEA_EX_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="SEA_EX_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_import" id="CHK_SEA_IM" style="display:none">
+                                            <span class="progress_title">해운수입</span>
+                                            <div class="dash-progress">
+                                                <div id="SEA_IM_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="SEA_IM_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_schedule" id="CHK_AIR_EX" style="display:none">
+                                            <span class="progress_title">항공수출</span>
+                                            <div class="dash-progress">
+                                                <div id="AIR_EX_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="AIR_EX_SIZE">0GB</span>
+                                        </div>
+                                        <div class="dash-progress__bg use_service" id="CHK_AIR_IM" style="display:none">
+                                            <span class="progress_title">항공수입</span>
+                                            <div class="dash-progress">
+                                                <div id="AIR_IM_PER"></div>
+                                            </div>
+                                            <span class="use-progress_value" id="AIR_IM_SIZE">0GB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-box">
+                        <h4 class="use_title">예상청구금액</h4>
+                        <div class="use_box cost">
+                            <div class="use_cont">
+                                <div class="cost_graph__chart">
+                                    <div class="cost_graph-chart" id="CostGraph"></div>
+                                    <div class="cost_unit">
+                                        <p class="unit_num" id="TOT"></p>
+                                    </div>
+                                </div>
+                                <div class="service_info__box">
+                                    <p class="service_info__tit">이용서비스변경<span>※ 다음달부터 적용</span></p>
+                                    <div class="service_info__table">
+                                        <div class="info_table tb_left">
+                                            <div class="service_info">
+                                                <p class="info_table__tit">서비스명</p>
+                                                <p class="info_table_cont" id="USE_ITEM">Elvis-meta(화주)</p>
+                                            </div>
+                                            <div class="service_info">
+                                                <p class="info_table__tit">사용기간</p>
+                                                <p class="info_table_cont" id="USE_YMD"></p>
+                                            </div>
+                                            <div class="service_info">
+                                                <p class="info_table__tit">미납금액</p>
+                                                <p class="info_table_cont" id="DEBIT_AMT"></p>
+                                            </div>
+                                        </div>
+                                        <div class="info_table tb_right">
+                                            <div class="service_info">
+                                                <p class="info_table__tit">입금요청일</p>
+                                                <p class="info_table_cont">10일</p>
+                                            </div>
+                                            <div class="service_info">
+                                                <p class="info_table__tit">월 이용료</p>
+                                                <p class="info_table_cont" id="MON_AMT"></p>
+                                            </div>
+                                            <div class="service_info">
+                                                <p class="info_table__tit">합계</p>
+                                                <p class="info_table_cont sum" id="SUM_AMT"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-area">
+                                    <button type="button" class="btns blue change_appli">변경신청</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-box">
+                        <h4 class="use_title">연간사용통계</h4>
+                        <div class="use_box statistics">
+                            <div class="use_cont">
+                                <div class="stats_graph__chart">
+                                    <div class="stats_graph-chart" id="StatsGraph"></div>
+                                </div>
+                                <div class="stats_table">
+                                    <table class="stats_tb">
+                                        <colgroup>
+                                            <col width="20%" />
+                                            <col width="20%" />
+                                            <col width="20%" />
+                                            <col width="20%" />
+                                            <col width="20%" />
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th>청구월</th>
+                                                <th>사용량(건)</th>
+                                                <th>청구금액</th>
+                                                <th>납부상태</th>
+                                                <th>청구서</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbd_inv">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="stats_div">
+                                    <div class="stats-scroll">
+                                        <div class="stats_box">
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구월</span><span class="stats_cont">2023.09</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">사용용량(GB)</span><span class="stats_cont">20</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구금액</span><span class="stats_cont">30,000</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">납부상태</span><span class="stats_cont">X</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구서</span><span class="stats_cont"><button type="button">다운로드</button></span>
+                                            </div>
+                                        </div>
+                                        <div class="stats_box">
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구월</span><span class="stats_cont">2023.09</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">사용용량(GB)</span><span class="stats_cont">20</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구금액</span><span class="stats_cont">30,000</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">납부상태</span><span class="stats_cont">X</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구서</span><span class="stats_cont"><button type="button">다운로드</button></span>
+                                            </div>
+                                        </div>
+                                        <div class="stats_box">
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구월</span><span class="stats_cont">2023.09</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">사용용량(GB)</span><span class="stats_cont">20</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구금액</span><span class="stats_cont">30,000</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">납부상태</span><span class="stats_cont">X</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구서</span><span class="stats_cont"><button type="button">다운로드</button></span>
+                                            </div>
+                                        </div>
+                                        <div class="stats_box">
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구월</span><span class="stats_cont">2023.09</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">사용용량(GB)</span><span class="stats_cont">20</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구금액</span><span class="stats_cont">30,000</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">납부상태</span><span class="stats_cont">X</span>
+                                            </div>
+                                            <div class="stats_desc">
+                                                <span class="stats_tit">청구서</span><span class="stats_cont"><button type="button">다운로드</button></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-area">
+                                    <select class="btns blue select_year" id="SELECT_YYYY">
+                                        @*<option>2023</option>
+                                        <option>2022</option>*@
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Main/Use.js")
+}

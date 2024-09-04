@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Schedule";
+    ViewBag.Sub = "Air";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">항공 스케줄 조회</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="type_value">
+                                <div class="int_box cal_date">
+                                    <input type="text" class="date icn_calendar" id="input_ETD" placeholder="출발일" data-index="1"/>
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POL_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POL" class="icn_port" placeholder="출발지" autocomplete="off" data-index="2">
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOL" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_POLCD">
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POD_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POD" class="icn_port" placeholder="도착지" autocomplete="off" data-index="3">
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOD" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_PODCD">
+                                </div>
+                            </div>
+                            <div class="type_value no_flex last">
+                                <button type="button" class="btn_search" id="btn_search">조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- result -->
+                    <div class="result-area" id="resultArea">
+                        <table class="list_type1" id="AIRTable_List">
+                            <colgroup class="pc">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col class="w1">
+                                <col class="w1">
+                            </colgroup>
+                            <thead class="head">
+                                <tr class="row">
+                                    <th><button type="button" id="LINE_CD" class="btn_order">Carrier</button></th>
+                                    <th><button type="button" id="VSL" class="btn_order">Flight No</button></th>
+                                    <th><button type="button" id="ETD" class="btn_order">Departure</button></th>
+                                    <th><button type="button" id="ETA" class="btn_order">Arrival</button></th>
+                                    <th><button type="button" id="TT_DAY" class="btn_order">T/time</button></th>
+                                    <th><button type="button" id="TS_YN" class="btn_order">T/S</button></th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div class="list_body">
+                            <table class="list_type1">
+                                <colgroup class="pc">
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col class="w1">
+                                    <col class="w1">
+                                </colgroup>
+                                <tbody id="Sch_ResultArea">
+                                    @*<tr>
+                                        <td class="no_data" colspan="8">
+                                            <p><img src="~/Images/no_data.png" />원하시는 문구 넣어주세요.</p>
+                                        </td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- result -->
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Schedule/Air.js")
+}

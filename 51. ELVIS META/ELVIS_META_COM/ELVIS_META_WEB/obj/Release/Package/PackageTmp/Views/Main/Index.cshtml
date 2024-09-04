@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@section Container {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <section class="container" id="main_container">
+        <div class="main_visual">
+            <div class="fixed_in type2 login_tbl" style="max-width:unset;">
+                <div class="login_area">
+                    <div class="login_box">
+                        <div class="login_box__box">
+                            <div class="slogan">
+                                <p>수출·입 최적화를 위한 <br class="mo" />물류 실행사 매칭 서비스 플랫폼</p>
+                                <h2>ELVIS<span class="pc">-</span><br class="mo" />META</h2>
+                            </div>
+                            <div class="search_type1 focus">
+                                <input type="text" placeholder="Email" id="email" style="border-bottom:none; border-radius:4px 4px 0 0" />
+                                <span class="red" id="Email_Warning" style="display:none">* Please enter your account.</span>
+                            </div>
+                            <div class="search_type1 focus">
+                                <input type="password" placeholder="Password" id="password" style="border-radius:0 0 4px 4px" />
+                                <span class="red" id="Password_Warning" style="display:none">* Please enter your password.</span>
+                            </div>
+                            <div class="chk">
+                                <span class="check">
+                                    <input type="checkbox" id="login_keep" name="login_keep" />
+                                    <label for="login_keep">Remember me</label>
+                                </span>
+                                <span class="forgot"><a href="@Url.Action("Find","Main")" id="FindPwd">Forgot ID or Password?</a></span>
+                            </div>
+                            <div class="security_char" style="display:none">
+                                <strong class="tit">보안문자</strong>
+                                <div class="inner">
+                                    <p class="txt1">5회 이상 로그인 실패했습니다. 보안문자를 그려주세요.</p>
+                                    <div class="box">
+                                        <button type="button" class="btns type3 silver"><span class="refresh">새로고침</span></button>
+                                        <!-- character -->
+                                        <div class="character" id="Captcha_Area"></div>
+                                        <!-- //character -->
+                                    </div>
+                                    <p class="txt2">[ ● ]을 시작으로 그림을 따라 그려주세요.</p>
+                                </div>
+                            </div>
+                            <button type="button" class="login_btn" id="Login_btn">Login</button>
+                            <button type="button" class="join_btn" onclick="location.href='@Url.Action("Join","Main")'">Sign Up</button>
+                            @*<button type="button" class="login_btn" id="test" style="margin-top:10px;">Test</button>*@
+                            @*<form>
+            <input type="file" id="myfile" name="files" />
+            <input type="button" onclick="uploadFile();" value="Upload" />
+        </form>*@
+                            @*<button type="button" class="login_btn" id="test" style="margin-top:10px;">Test</button>*@
+                            @*<form>
+            <input type="file" id="myfile" name="files" />
+            <input type="button" onclick="uploadFile();" value="Upload" />
+        </form>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Main/Index.js")
+}

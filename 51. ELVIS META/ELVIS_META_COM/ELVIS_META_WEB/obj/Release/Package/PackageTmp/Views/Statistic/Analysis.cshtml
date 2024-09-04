@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewBag.Title = "Statistic";
+    ViewBag.Sub = "Analysis";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <h1 class="sub_title">품목/지역별 거래내역 분석</h1>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="analysis">
+                        <div class="analysis-list">
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE1">
+                                            <option selected>조제식품/음료/주류등</option>
+                                            <option>시멘트</option>
+                                            <option>유연탄</option>
+                                            <option>철광석</option>
+                                            <option>기타광석 및 생산품</option>
+                                            <option>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE2">
+                                            <option>조제식품/음료/주류등</option>
+                                            <option selected>시멘트</option>
+                                            <option>유연탄</option>
+                                            <option>철광석</option>
+                                            <option>기타광석 및 생산품</option>
+                                            <option>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE3">
+                                            <option>조제식품/음료/주류등</option>
+                                            <option>시멘트</option>
+                                            <option selected>유연탄</option>
+                                            <option>철광석</option>
+                                            <option>기타광석 및 생산품</option>
+                                            <option>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE4">
+                                            <option>조제식품/음료/주류등</option>
+                                            <option>시멘트</option>
+                                            <option>유연탄</option>
+                                            <option selected>철광석</option>
+                                            <option>기타광석 및 생산품</option>
+                                            <option>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE5">
+                                            <option>조제식품/음료/주류등</option>
+                                            <option>시멘트</option>
+                                            <option>유연탄</option>
+                                            <option>철광석</option>
+                                            <option selected>기타광석 및 생산품</option>
+                                            <option>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analysis-list__cont">
+                                <div class="analysis-cont">
+                                    <div class="analysis-cont__select">
+                                        <select class="select" id="CHART_TYPE6">
+                                            <option>조제식품/음료/주류등</option>
+                                            <option>시멘트</option>
+                                            <option>유연탄</option>
+                                            <option>철광석</option>
+                                            <option>기타광석 및 생산품</option>
+                                            <option selected>원유(역청유)/ 석유</option>
+                                            <option>석유 정제품</option>
+                                            <option>석유가스 및 기타가스</option>
+                                            <option>화학공업 생산품</option>
+                                            <option>플라스틱/고무및 제품</option>
+                                            <option>방직용섬유 및 그제품</option>
+                                            <option>철강 및 그제품</option>
+                                            <option>기계류 및 그부품</option>
+                                            <option>차량 및 그부품</option>
+                                        </select>
+                                    </div>
+                                    <div class="analysis-cont__chart">
+                                        <div class="analysis-chart" id="analysisChart6"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Statistics/Analysis.js")
+}

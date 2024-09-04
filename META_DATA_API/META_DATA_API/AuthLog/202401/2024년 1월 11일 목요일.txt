@@ -1,0 +1,42 @@
+[Auth-2024-01-11 15:50:50]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 15:51:11]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 15:57:51]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 15:57:55]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 15:58:09]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 15:58:19]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:04:14]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:06:27]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:10:16]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:14:59]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:20:48]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 16:22:04]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 17:14:45]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 17:19:35]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 17:19:38]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-11 17:19:51]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+
+[Auth-2024-01-11 17:19:52]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+
+[Auth-2024-01-11 17:20:00]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+
+[Auth-2024-01-11 17:20:07]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+
+[Auth-2024-01-11 17:20:12]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+
+[Auth-2024-01-11 17:48:00]    MNGT_NO:   20221023172038986891   /   USR_ID:   ebkim@yjit.co.kr   /   Authorization-Token:20221023172038986891|ebkim@yjit.co.kr|1148183347||
+

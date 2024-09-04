@@ -1,0 +1,318 @@
+﻿
+@{
+    ViewBag.Title = "AirExport";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+
+    <script>
+
+        //function fniframeOpen() {
+        //    layerPopup('#pdfLayer');
+        //    $("#iframe_test").attr("src", "/web/viewer.html?file=/Content/TempFiles/ISLSOSA21050002_6_ISLSOSA21050002_SESS21050085_INV_20210623163404.PDF");
+        //}
+
+        function fniframeClose() {
+            layerClose('#pdfLayer');
+            $("#iframe_test").attr("src", "");
+        }
+
+    </script>
+
+    <section class="container excution_air" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">수출관리</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="type_value no_flex">
+                                <select class="select" id="YMD_TYPE">
+                                    <option>ETD</option>
+                                    <option>ETA</option>
+                                </select>
+                            </div>
+                            <div class="type_value flex">
+                                <div class="int_box start_date">
+                                    <input type="text" class="date icn_calendar" id="ETD" placeholder="출발일" maxlength="10" data-index="1"/>
+                                </div>
+                                <span>~</span>
+                                <div class="int_box end_date">
+                                    <input type="text" class="date icn_calendar" id="ETA" placeholder="도착일" maxlength="10" data-index="2"/>
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POL_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POL" class="icn_port" placeholder="출발지" autocomplete="off" data-index="3" >
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOL" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_POLCD">
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POD_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POD" class="icn_port" placeholder="도착지" autocomplete="off" data-index="4" >
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOD" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_PODCD">
+                                </div>
+                            </div>
+                            <div class="type_value no_flex last">
+                                <button type="button" class="btn_search" id="btn_search">조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <div class="prog-status">
+                        <div class="prog-status__stat yet">
+                            <p>진행 예정</p>
+                            <div class="prog-status__bar">
+                                <div class="prog-status__percent"></div>
+                            </div>
+                        </div>
+                        <div class="prog-status__stat present">
+                            <p>진행 중</p>
+                            <div class="prog-status__bar">
+                                <div class="prog-status__percent"></div>
+                            </div>
+                        </div>
+                        <div class="prog-status__stat finished">
+                            <p>완료 건</p>
+                            <div class="prog-status__bar">
+                                <div class="prog-status__percent"></div>
+                            </div>
+                            @*<div class="prog-status__nm">항목</div>*@
+                        </div>
+                    </div>
+                    <!-- result -->
+                    <div class="exim-list" id="eximList">
+                        @*<div class="exim-box no_data">
+                            <p><img src="~/Images/no_data.png" /></p>
+                        </div>*@
+                        @*<div class="exim-box imp ship">
+                            <div class="exim-icn">
+                                <img src="/Images/ship_import_icn.png">
+                                <div class="exim-cont__prog mo">
+                                    <div class="prog-status__stat finished">
+                                        <div class="prog-status__bar">
+                                            <div class="prog-status__percent" />
+                                        </div>
+                                        <button type="button" class="prog-status__nm btnBL">B/L</button>
+                                    </div>
+                                    <div class="prog-status__stat finished">
+                                        <div class="prog-status__bar">
+                                            <div class="prog-status__percent" />
+                                        </div>
+                                        <button type="button" class="prog-status__nm btnInv">INV</button>
+                                    </div>
+                                    <div class="prog-status__stat finished">
+                                        <div class="prog-status__bar">
+                                            <div class="prog-status__percent" />
+                                        </div>
+                                        <button type="button" class="prog-status__nm btnDo">D/O</button>
+                                    </div>
+                                    <div class="prog-status__stat finished">
+                                        <div class="prog-status__bar">
+                                            <div class="prog-status__percent" />
+                                        </div>
+                                        <button type="button" class="prog-status__nm btnEdi">EDI</button>
+                                    </div>
+                                    <div class="prog-status__stat finished">
+                                        <div class="prog-status__bar">
+                                            <div class="prog-status__percent" />
+                                        </div>
+                                        <button type="button" class="prog-status__nm btnTax">TAX</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="exim-inner">
+                                <div class="exim-cont text-info">
+                                    <div class="exim-cont__info">
+                                        <div class="exim-cont__inner">
+                                            <div class="exim-cont__flex">
+                                                <div class="exim-cont__desc">
+                                                    <p>HAIPHONG, VIETNAM</p>
+                                                </div>
+                                                <div class="exim-cont__desc2">
+                                                    <p> 2022.12.07  (Wen) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="exim-cont__info">
+                                        <div class="exim-cont__inner">
+                                            <p class="exim-cont__progress">
+                                                <img src="/Images/icn_progress.png">
+                                                20개 업체 견적 진행중
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="exim-cont__info">
+                                        <div class="exim-cont__inner">
+                                            <div class="exim-cont__flex">
+                                                <div class="exim-cont__desc">
+                                                    <p>HAIPHONG, VIETNAM</p>
+                                                </div>
+                                                <div class="exim-cont__desc2">
+                                                    <p> 2022.12.08  (Thu) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-cont prog-info pc">
+                                    <div class="exim-cont__prog">
+                                        <div class="prog-status__stat finished">
+                                            <div class="prog-status__bar">
+                                                <div class="prog-status__percent" />
+                                            </div>
+                                            <button type="button" class="prog-status__nm btnBL">B/L</button>
+                                        </div>
+                                        <div class="prog-status__stat finished">
+                                            <div class="prog-status__bar">
+                                                <div class="prog-status__percent" />
+                                            </div>
+                                            <button type="button" class="prog-status__nm btnInv">INV</button>
+                                        </div>
+                                        <div class="prog-status__stat finished">
+                                            <div class="prog-status__bar">
+                                                <div class="prog-status__percent" />
+                                            </div>
+                                            <button type="button" class="prog-status__nm btnDo">D/O</button>
+                                        </div>
+                                        <div class="prog-status__stat finished">
+                                            <div class="prog-status__bar">
+                                                <div class="prog-status__percent" />
+                                            </div>
+                                            <button type="button" class="prog-status__nm btnEdi">EDI</button>
+                                        </div>
+                                        <div class="prog-status__stat finished">
+                                            <div class="prog-status__bar">
+                                                <div class="prog-status__percent" />
+                                            </div>
+                                            <button type="button" class="prog-status__nm btnTax">TAX</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exim-cont doc-info">
+                                    <button type="button" class="btns exim-cont__doc btnDocuList">Document</button>
+                                </div>
+                            </div>
+                        </div>*@
+                    </div>
+                    <!-- result -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- doc-layer -->
+    <div class="layer_zone doc-layer" id="docLayer">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <h2 class="doc-layer__title">첨부파일</h2>
+                    <div class="doc-layer__cont">
+                        <div class="doc-layer__title2">
+                            <div class="doc-layer__tit1">구분</div>
+                            <div class="doc-layer__tit2">파일명</div>
+                        </div>
+                        <div class="doc-layer__list" id="doc_list">
+                            @*<div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>Check B/L</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>House B/L</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>Insurance Policy</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>Invoice</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501-01</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>C/I, Packing List</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>C/I, Packing List</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>C/O</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>Check B/L</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                    </div>
+                </div>
+                <div class="doc-layer__file">
+                    <div class="doc-layer__sort">
+                        <p>Check B/L</p>
+                    </div>
+                    <div class="doc-layer__nm">
+                        <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                    </div>
+                </div>*@
+                        </div>
+                    </div>
+                    <button type="button" class="btns close3" id="" onclick="layerClose('#docLayer')"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>                    
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- doc-layer -->
+    <!-- pdf-layer -->
+    <div class="layer_zone pdf-layer" id="pdfLayer" style="z-index:10001">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <h2 class="pdf-layer__title" id="DOC_TYPE"></h2>
+                    <div class="pdf-layer__cont">
+                        <iframe src="" id="iframe_test"></iframe>
+                    </div>
+                    <button type="button" class="btns close3" id="" onclick="fniframeClose()"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>                    
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- pdf-layer -->
+    @Scripts.Render("~/Scripts/Sub/Export/Air.js")
+}

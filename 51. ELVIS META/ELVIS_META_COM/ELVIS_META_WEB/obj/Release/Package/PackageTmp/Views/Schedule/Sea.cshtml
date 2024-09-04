@@ -1,0 +1,366 @@
+﻿@{
+    ViewBag.Title = "Schedule";
+    ViewBag.Sub = "Sea";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">해운 스케줄 조회</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <div class="search_type2">
+                        <div class="search_cover">
+                            <div class="type_value">
+                                <div class="int_box cal_date">
+                                    <input type="text" class="date icn_calendar" id="input_ETD" placeholder="출발일"  data-index="1" maxlength="10"/>
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POL_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POL" class="icn_port" placeholder="출발지" autocomplete="off" data-index="2">
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOL" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_POLCD">
+                                </div>
+                            </div>
+                            <div class="type_value" id="AC_POD_Width">
+                                <div class="int_box">
+                                    <input type="text" id="input_POD" class="icn_port" placeholder="도착지" autocomplete="off" data-index="3">
+                                    <button type="button" class="btns icon delete right" id="btn_deletePOD" style="display: none;"><span class="blind">삭제</span></button>
+                                    <input type="hidden" id="input_PODCD">
+                                </div>
+                            </div>
+                            <div class="type_value no_flex last">
+                                <button type="button" class="btn_search" id="btn_search" @*onclick="fnMovePage('resultArea')"*@>조회</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- result -->
+                    <div class="result-area" id="resultArea">
+                        <table class="list_type1" id="SEATable_List">
+                            <colgroup class="pc">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col class="w1">
+                                <col class="w1">
+                            </colgroup>
+                            <thead class="head">
+                                <tr class="row">
+                                    <th><button type="button" id="LINE_CD" class="btn_order">Carrier</button></th>
+                                    <th><button type="button" id="VSL" class="btn_order">Vessel</button></th>
+                                    <th><button type="button" id="ETD" class="btn_order">Departure</button></th>
+                                    <th><button type="button" id="ETA" class="btn_order">Arrival</button></th>
+                                    <th><button type="button" id="DOC_CLOS_YMD" class="btn_order">Doc Closing</button></th>
+                                    @*<th><button type="button" value="CNTR_TYPE" class="">Service</button></th>*@
+                                    <th><button type="button" id="TT_DAY" class="btn_order">T/time</button></th>
+                                    <th><button type="button" id="TS_YN" class="btn_order">T/S</button></th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div class="list_body">
+                            <table class="list_type1">
+                                <colgroup class="pc">
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col class="w1">
+                                    <col class="w1">
+                                </colgroup>
+                                <tbody id="SCH_LIST">
+                                    @*<tr>
+                                        <td class="no_data" colspan="7">
+                                            <p><img src="/Images/no_data.png" /></p>
+                                        </td>
+                                    </tr>*@
+                                    @*<tr class="row Schedule_KMTC" data-row="row_1">
+                                        <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                        <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                        <td>2022.09.22 (목) KRPUS</td>
+                                        <td>2022.09.23 (금) CNSHA</td>
+                                        <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                        <td>FCL</td>
+                                        <td>1 Day</td>
+                                        <td>Direct</td>
+                                        <td class="mobile_layout" colspan="9">
+                                            <div class="layout_type2">
+                                                <div class="row s3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Carrier</th>
+                                                                <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Vessel</th>
+                                                                <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Departure</th>
+                                                                <td>2022.09.22(목) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Arrival</th>
+                                                                <td>2022.09.23(금) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Doc Closing</th>
+                                                                <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Service</th>
+                                                                <td>FCL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/time</th>
+                                                                <td>1 Day</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/S</th>
+                                                                <td>Direct</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="row Schedule_KMTC" data-row="row_1">
+                                        <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                        <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                        <td>2022.09.22 (목) KRPUS</td>
+                                        <td>2022.09.23 (금) CNSHA</td>
+                                        <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                        <td>FCL</td>
+                                        <td>1 Day</td>
+                                        <td>Direct</td>
+                                        <td class="mobile_layout" colspan="9">
+                                            <div class="layout_type2">
+                                                <div class="row s3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Carrier</th>
+                                                                <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Vessel</th>
+                                                                <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Departure</th>
+                                                                <td>2022.09.22(목) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Arrival</th>
+                                                                <td>2022.09.23(금) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Doc Closing</th>
+                                                                <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Service</th>
+                                                                <td>FCL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/time</th>
+                                                                <td>1 Day</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/S</th>
+                                                                <td>Direct</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="row Schedule_KMTC" data-row="row_1">
+                                        <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                        <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                        <td>2022.09.22 (목) KRPUS</td>
+                                        <td>2022.09.23 (금) CNSHA</td>
+                                        <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                        <td>FCL</td>
+                                        <td>1 Day</td>
+                                        <td>Direct</td>
+                                        <td class="mobile_layout" colspan="9">
+                                            <div class="layout_type2">
+                                                <div class="row s3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Carrier</th>
+                                                                <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Vessel</th>
+                                                                <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Departure</th>
+                                                                <td>2022.09.22(목) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Arrival</th>
+                                                                <td>2022.09.23(금) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Doc Closing</th>
+                                                                <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Service</th>
+                                                                <td>FCL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/time</th>
+                                                                <td>1 Day</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/S</th>
+                                                                <td>Direct</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="row Schedule_KMTC" data-row="row_1">
+                                        <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                        <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                        <td>2022.09.22 (목) KRPUS</td>
+                                        <td>2022.09.23 (금) CNSHA</td>
+                                        <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                        <td>FCL</td>
+                                        <td>1 Day</td>
+                                        <td>Direct</td>
+                                        <td class="mobile_layout" colspan="9">
+                                            <div class="layout_type2">
+                                                <div class="row s3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Carrier</th>
+                                                                <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Vessel</th>
+                                                                <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Departure</th>
+                                                                <td>2022.09.22(목) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Arrival</th>
+                                                                <td>2022.09.23(금) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Doc Closing</th>
+                                                                <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Service</th>
+                                                                <td>FCL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/time</th>
+                                                                <td>1 Day</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/S</th>
+                                                                <td>Direct</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="row Schedule_KMTC" data-row="row_1">
+                                        <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                        <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                        <td>2022.09.22 (목) KRPUS</td>
+                                        <td>2022.09.23 (금) CNSHA</td>
+                                        <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                        <td>FCL</td>
+                                        <td>1 Day</td>
+                                        <td>Direct</td>
+                                        <td class="mobile_layout" colspan="9">
+                                            <div class="layout_type2">
+                                                <div class="row s3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Carrier</th>
+                                                                <td><img src="/Images/logo/KMTC.png" alt=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Vessel</th>
+                                                                <td>KMTC <a href="javascript:void(0)" style="color:#1dadc7;" onclick="layerPopup('#vss_pop2')">HAIAN WEST</a> 0019S</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Departure</th>
+                                                                <td>2022.09.22(목) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Arrival</th>
+                                                                <td>2022.09.23(금) </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Doc Closing</th>
+                                                                <td style="color:#f45517"> 2022.09.20 (화) 09:00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Service</th>
+                                                                <td>FCL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/time</th>
+                                                                <td>1 Day</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>T/S</th>
+                                                                <td>Direct</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- result -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="layer_zone vss_pop2" id="vss_pop2">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <img src="~/Images/logo.jpg" />
+                    <iframe id="layervss" class="map" width="100%" height="100%"></iframe>
+                    <button type="button" class="btns close3" id="" onclick="layerClose('#vss_pop2');"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/Scripts/Sub/Schedule/Sea.js")
+}

@@ -1,0 +1,180 @@
+﻿
+@{
+    ViewBag.Title = "Info";
+    ViewBag.Sub = "IEs";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <script>
+
+        //function fniframeOpen() {
+        //    layerPopup('#pdfLayer');
+        //    $("#iframe_test").attr("src", "/web/viewer.html?file=/Content/TempFiles/ISLSOSA21050002_6_ISLSOSA21050002_SESS21050085_INV_20210623163404.PDF");
+        //}
+
+        function fniframeClose() {
+            layerClose('#pdfLayer');
+            $("#iframe_test").attr("src", "");
+        }
+
+    </script>
+
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">수출입 업무현황</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- search_type2 -->
+                    <div class="search_type2">
+                        <div class="search_cover flex">
+                            <div class="cal_ym">
+                                <button type="button" class="arr left" id="btn_cal_left"></button>
+                                <span id="cal_date">2022.10</span>
+                                <button type="button" class="arr right" id="btn_cal_right"></button>
+                            </div>
+                            <div class="prog-status ies">
+                                <div class="prog-status__stat yet">
+                                    <div class="prog-status__bar">
+                                        <div class="prog-status__percent"></div>
+                                    </div>
+                                    <p>진행 예정</p>
+                                </div>
+                                <div class="prog-status__stat present">
+                                    <div class="prog-status__bar">
+                                        <div class="prog-status__percent"></div>
+                                    </div>
+                                    <p>진행 중</p>
+                                </div>
+                                <div class="prog-status__stat finished">
+                                    <div class="prog-status__bar">
+                                        <div class="prog-status__percent"></div>
+                                    </div>
+                                    <p>완료 건</p>
+                                    @*<div class="prog-status__nm">항목</div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search_type2 -->
+                    <!-- result -->
+                    <div class="exim-list info" id="eximList">
+                        
+                    </div>
+                    <!-- result -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- doc-layer -->
+    <div class="layer_zone doc-layer" id="docLayer">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <button type="button" class="btns close3" id="" onclick="layerClose('#docLayer')"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>
+                    <h2 class="doc-layer__title">첨부파일</h2>
+                    <div class="doc-layer__cont">
+                        <div class="doc-layer__title2">
+                            <div class="doc-layer__tit1">구분</div>
+                            <div class="doc-layer__tit2">파일명</div>
+                        </div>
+                        <div class="doc-layer__list" id="doc_list">
+                            @*<div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>Check B/L</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>House B/L</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>Insurance Policy</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>Invoice</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501-01</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>C/I, Packing List</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>C/I, Packing List</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>C/O</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">WBKG202207005</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>Check B/L</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                                </div>
+                            </div>
+                            <div class="doc-layer__file">
+                                <div class="doc-layer__sort">
+                                    <p>Check B/L</p>
+                                </div>
+                                <div class="doc-layer__nm">
+                                    <p><a href="javascript:void(0)" onclick="fniframeOpen()">SHA22072501</a></p>
+                                </div>
+                            </div>*@
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- doc-layer -->
+    <!-- pdf-layer -->
+    <div class="layer_zone pdf-layer" id="pdfLayer" style="z-index:10001">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <article class="layer_cont">
+                    <button type="button" class="btns close3" id="" onclick="fniframeClose()"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>
+                    <h2 class="pdf-layer__title"></h2>
+                    <div class="pdf-layer__cont">
+                        <iframe src="" id="iframe_test"></iframe>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- pdf-layer -->
+    @Scripts.Render("~/Scripts/Sub/Info/IEs.js")
+    @Scripts.Render("~/Scripts/js/swiper.js")
+}

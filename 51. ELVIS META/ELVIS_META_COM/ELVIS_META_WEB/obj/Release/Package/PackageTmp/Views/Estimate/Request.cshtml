@@ -1,0 +1,818 @@
+﻿
+@{
+    ViewBag.Title = "Estimate";
+    ViewBag.Sub = "Request";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+    //if (Request.QueryString["index"] != null)
+    //{
+    //    strIndex = Request.QueryString["index"].ToString();
+    //}
+
+}
+@section Container {
+    <input type="hidden" id="QUOT_NO">
+    <input type="hidden" id="TMPLT_ID1">
+    <input type="hidden" id="TMPLT_ID2">
+    <input type="hidden" id="LK_POL_CD" value="@ViewBag.POL_CD" />
+    <input type="hidden" id="LK_POD_CD" value="@ViewBag.POD_CD" />
+    <input type="hidden" id="LK_POL_NM" value="@ViewBag.POL_NM" />
+    <input type="hidden" id="LK_POD_NM" value="@ViewBag.POD_NM" />
+    <input type="hidden" id="LK_ITEM_NM" value="@ViewBag.ITEM_NM" />
+    <input type="hidden" id="LK_REQ_SVC" value="@ViewBag.REQ_SVC" />
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">견적요청</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    @*<div class="req-status">
+                        <div class="req-status__info on">
+                            <div class="req-status__num">01</div>
+                            <p class="req-status__nm">견적자료등록</p>
+                        </div>
+                        <div class="req-status__info">
+                            <div class="req-status__num">02</div>
+                            <p class="req-status__nm">문서정보확인</p>
+                        </div>
+                        <div class="req-status__info">
+                            <div class="req-status__num">03</div>
+                            <p class="req-status__nm">견적자료확인</p>
+                        </div>
+                        <div class="req-status__info">
+                            <div class="req-status__num">04</div>
+                            <p class="req-status__nm">포워더선택</p>
+                        </div>
+                    </div>*@
+                    <div class="req-status">
+                        <div class="req-status__info on status1">
+                            <div class="req-status__num">견적자료등록</div>
+                        </div>
+                        <div class="req-status__info status2">
+                            <div class="req-status__num">문서정보확인</div>
+                        </div>
+                        <div class="req-status__info status3">
+                            <div class="req-status__num">견적자료확인</div>
+                        </div>
+                        <div class="req-status__info status4">
+                            <div class="req-status__num">포워더선택</div>
+                        </div>
+                    </div>
+                    <!-- req-info__seq -->
+                    <div class="req-info__seq" style="display:block;">
+                        <div class="tab_area">
+                            <ul class="tab" id="REQ_SVC">
+                                <li class="on" id="SEA">해운</li>
+                                <li id="AIR">항공</li>
+                            </ul>
+                        </div>
+                        <div class="tab_panel">
+                            <div class="panel" style="display:block;">
+                                <!-- S : req-info__input -->
+                                <div class="req-info__input">
+                                    <h3 class="req-info__title">기본정보</h3>
+                                    <p><span class="red">*</span>표시는 필수입력 입니다.</p>
+                                    <div class="req-info__desc type1">
+                                        <!-- flex -->
+                                        <!-- req-info__box -->
+                                        <div class="req-info__box">
+                                            <p class="essential">출발지</p>
+                                            <!-- 즐겨찾기 -->
+                                            <div class="int_box">
+                                                <input type="text" id="input_POL" class="port" placeholder="출발지" autocomplete="off" data-index="1" maxlength="30">
+                                                <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                                <input type="hidden" id="input_POLCD">
+                                            </div>
+                                        </div>
+                                        <!-- //req-info__box -->
+                                        <!-- req-info__box -->
+                                        <div class="req-info__box">
+                                            <p>출발예정일</p>
+                                            <div class="int_box cal_date">
+                                                <input type="text" class="date calendar" data-index="2" id="ETD" maxlength="10" autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <!-- //req-info__box -->
+                                        <!-- req-info__box -->
+                                        <div class="req-info__box">
+                                            <p class="essential">도착지</p>
+                                            <div class="int_box">
+                                                <input type="text" id="input_POD" class="port" placeholder="도착지" autocomplete="off" data-index="3" maxlength="30">
+                                                <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                                <input type="hidden" id="input_PODCD">
+                                            </div>
+                                        </div>
+                                        <!-- //req-info__box -->
+                                        <!-- req-info__box -->
+                                        <div class="req-info__box">
+                                            <p>도착예정일</p>
+                                            <div class="int_box cal_date">
+                                                <input type="text" class="date calendar" data-index="4" id="ETA" maxlength="10" autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <!-- //req-info__box -->
+                                        <!-- req-info__box -->
+                                        <div class="req-info__box flex100">
+                                            <p>품목명</p>
+                                            <div class="int_box">
+                                                <input type="text" class="" data-index="5" id="MAIN_ITEM" maxlength="50" />
+                                                <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                            </div>
+                                        </div>
+                                        <!-- //req-info__box -->
+                                    </div>
+                                </div>
+                                <!-- E : req-info__input -->
+                                <!-- S : req-info__input -->
+                                <div class="req-info__input flex">
+                                    <div class="req-info__flex">
+                                        <h3 class="req-info__title">화물정보</h3>
+                                        <div class="req-info__desc type2">
+                                            <div class="req-info__cargo">
+                                                <div class="req-info__cargo__info">
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="수량" id="CARGO_PKG" data-index="6" maxlength="6"/>
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="G/WT" id="CARGO_GRS_WGT" data-index="7" maxlength="6" />
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="V/WT" id="CARGO_VOL_WGT" data-index="8" maxlength="6" />
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="가로 (최대 300CM)" id="CARGO_WIDTH" data-index="9" maxlength="3" />
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="세로 (최대 230CM)" id="CARGO_LENGTH" data-index="10" maxlength="3" />
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                    <div class="int_box">
+                                                        <input type="text" class="cargo" placeholder="높이 (최대 230CM)" id="CARGO_HEIGHT" data-index="11" maxlength="3" />
+                                                        <button type="button" class="btns icon delete cargodel" style="display: none;"><span class="blind">삭제</span></button>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btns add_cargo" id="addCargo">화물추가</button>
+                                            </div>
+                                            <div class="freight_info_head" id="fcl_head" style="display:none;">
+                                                <div class="head_col">
+                                                    <div class="fcl" data-value="SEQ"></div>
+                                                    <div class="fcl" data-value="PKG"></div>
+                                                    <div class="fcl" data-value="GRS_WGT"></div>
+                                                    <div class="fcl" data-value="VOL_WGT"></div>
+                                                    <div class="fcl" data-value="WDT"></div>
+                                                    <div class="fcl" data-value="VERT"></div>
+                                                    <div class="fcl" data-value="HGT"></div>
+                                                </div>
+                                            </div>
+                                            <div class="req-info__list" id="cargoList">
+                                                @*<div class="req-info__cargo2">
+                                                        <div class="req-info__num"><p>1</p></div>
+                                                        <div class="req-info__cont">
+                                                            <p>
+                                                                수량 <span>1</span> | G/WT <span>2</span> | V/WT <span>3</span> | 가로 <span>300</span>CM | 세로 <span>230</span>CM | 높이 <span>230</span>CM
+                                                            </p>
+                                                        </div>
+                                                        <button type="button" class="btns cargo_del"></button>
+                                                    </div>*@
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__flex">
+                                        <h3 class="req-info__title">문서정보</h3>
+                                        <div class="req-info__desc">
+                                            <div class="req-info__doc">
+                                                <div class="int_box">
+                                                    <p id="TEMP_FILE_TYPE1">C/I</p>
+                                                    @*<select id="TEMP_FILE_TYPE1">
+                                                            <option value="CI" selected>C/I</option>
+                                                            <option value="PL">P/L</option>
+                                                        </select>*@
+                                                </div>
+                                                <div class="int_box">
+                                                    <select id="TEMP_LIST1">
+                                                    </select>
+                                                </div>
+                                                <div class="int_box">
+                                                    <input type="file" id="doc_file1" class="doc__nm" value="" />
+                                                    <label for="doc_file1">파일 업로드 해주세요</label>
+                                                    <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                                </div>
+                                            </div>
+                                            <div class="req-info__doc">
+                                                <div class="int_box">
+                                                    <p id="TEMP_FILE_TYPE2">P/L</p>
+                                                    @*<select id="TEMP_FILE_TYPE2">
+                                                            <option value="CI" >C/I</option>
+                                                            <option value="PL" selected>P/L</option>
+                                                        </select>*@
+                                                </div>
+                                                <div class="int_box">
+                                                    <select id="TEMP_LIST2">
+                                                    </select>
+                                                </div>
+                                                <div class="int_box">
+                                                    <input type="file" id="doc_file2" class="doc__nm" />
+                                                    <label for="doc_file2">파일 업로드 해주세요</label>
+                                                    <button type="button" class="btns icon delete" style="display: none;"><span class="blind">삭제</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="req-info__title">비고</h3>
+                                        <div class="req-info__desc">
+                                            <textarea id="RMK" maxlength="200" placeholder="비고"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- E : req-info__input -->
+                            </div>
+                        </div>
+                        <!-- S : btn-area -->
+                        <div class="req-info__btns btn-area">
+                            @*<button type="button" class="btns prev">이전</button>*@
+                            <button type="button" class="btns next blue mini" id="btn_part1">다음</button>
+                        </div>
+                        <!-- E : btn-area -->
+                    </div>
+                    <!-- E : req-info__seq -->
+                    <!-- S : req-info__seq -->
+                    <div class="req-info__seq">
+                        <div class="req-info__cover">
+                            <div class="req-info__flex">
+                                <h3 class="req-info__title">문서정보</h3>
+                                <div class="req-info__two doc_select">
+                                    <div class="req-info__desc on" id="DOC_TEMP1">
+                                        <p class="req-doc__nm" id="DOC_TEMP_TYPE1"></p>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">서식명</p>
+                                            <p class="DOC_TEMP_NM1"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">파일명</p>
+                                            <p class="DOC_FILE_NM1"></p>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__desc" id="DOC_TEMP2" style="display:none">
+                                        <p class="req-doc__nm" id="DOC_TEMP_TYPE2"></p>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">서식명</p>
+                                            <p class="DOC_TEMP_NM2"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">파일명</p>
+                                            <p class="DOC_FILE_NM2"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="req-info__desc req-doc__window">
+                                    <iframe id="iframe_test"></iframe>
+                                </div>
+                            </div>
+                            <div class="req-info__flex">
+                                <h3 class="req-info__title">문서판독결과</h3>
+                                <div class="req-info__desc result">
+                                    <div class="req-result__title">
+                                        <h4>대표샘플명</h4>
+                                        <div class="req-title__sample">
+                                            <div class="req-sample">
+                                                <p class="req-sample__title">이름</p>
+                                                <p id="TEMP_TLT"></p>
+                                            </div>
+                                            <div class="req-sample">
+                                                <p class="req-sample__title">내용</p>
+                                                <p id="TEMP_CONT"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-result__field" id="OCR_FILED1">
+                                        <h4>필드</h4>
+                                        <div class="req-field__list">
+                                            <div class="req-field__head">
+                                                <p>판독영역</p>
+                                                <p>이름</p>
+                                                <p>내용</p>
+                                            </div>
+                                            <div class="req-field__body OcrList">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-result__field" id="OCR_FILED2" style="display:none;">
+                                        <h4>필드</h4>
+                                        <div class="req-field__list">
+                                            <div class="req-field__head">
+                                                <p>판독영역</p>
+                                                <p>이름</p>
+                                                <p>내용</p>
+                                            </div>
+                                            <div class="req-field__body OcrList2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- S : btn-area -->
+                        <div class="req-info__btns btn-area">
+                            <button type="button" class="btns gray mini prev" onclick="fnMovePage('container')">이전</button>
+                            <button type="button" class="btns blue mini next" id="btn_part2">다음</button>
+                        </div>
+                        <!-- E : btn-area -->
+                    </div>
+                    <!-- E : req-info__seq -->
+                    <!-- S : req-info__seq -->
+                    <div class="req-info__seq" style="background-color:unset;">
+                        <div class="req-info__cover" style="padding:0; background:#fff;  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);">
+                            <div class="req-info__flex status2">
+                                <h3 class="req-info__title">등록자료내역</h3>
+                                <div class="req-info__desc mh310">
+                                    <div class="req-info__sort" id="CFM_REQ_SVC">해운</div>
+                                    <div class="req-doc__info">
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">출발지</p>
+                                            <p id="CFM_POL"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">출발요청일</p>
+                                            <p id="CFM_ETD"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">도착지</p>
+                                            <p id="CFM_POD"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">도착요청일</p>
+                                            <p id="CFM_ETA"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">품목명</p>
+                                            <p id="CFM_MAIN_ITEM"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">총수량</p>
+                                            <p id="CFM_PKG"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">총중량</p>
+                                            <p id="CFM_GRS_WGT"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">총부피</p>
+                                            <p id="CFM_VOL_WGT"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">비고</p>
+                                            <p id="CFM_RMK"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="req-info__flex status2">
+                                <h3 class="req-info__title">등록문서정보</h3>
+                                <div class="req-info__two doc_select pb0">
+                                    <div class="req-info__desc" id="PART3_FILE1">
+                                        <p class="req-doc__nm" id="PART3_TYPE_NM1"></p>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">서식명</p>
+                                            <p id="PART3_TEMP_NM1"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">파일명</p>
+                                            <p id="PART3_FILE_NM1"></p>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__desc" id="PART3_FILE2" style="display:none;">
+                                        <p class="req-doc__nm" id="PART3_TYPE_NM2"></p>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">서식명</p>
+                                            <p id="PART3_TEMP_NM2"></p>
+                                        </div>
+                                        <div class="req-doc__desc">
+                                            <p class="req-doc__title">파일명</p>
+                                            <p id="PART3_FILE_NM2"></p>
+                                        </div>
+                                    </div>
+                                    <div class="req-info__desc wd100" id="FILE_NO_DATA" style="display:none">
+                                        <div class="exim-box no_data" style='padding:0'>
+                                            <p><img src="~/Images/no_data.png" /></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="req-info__flex status2">
+                                <h3 class="req-info__title">문서판독결과</h3>
+                                <div class="req-info__desc result">
+                                    <div class="req-result__title">
+                                        <h4>대표샘플명</h4>
+                                        <div class="req-title__sample">
+                                            <div class="req-sample">
+                                                <p class="req-sample__title">이름</p>
+                                                <p id="PART3_TEMP_TLT"></p>
+                                            </div>
+                                            <div class="req-sample">
+                                                <p class="req-sample__title">내용</p>
+                                                <p id="PART3_TEMP_CONT"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-result__field" id="PART3_LIST1">
+                                        <h4>필드</h4>
+                                        <div class="req-field__list">
+                                            <div class="req-field__head">
+                                                <p data-value="FIELD_SEQ">판독영역</p>
+                                                <p data-value="OCR_NAME">이름</p>
+                                                <p data-value="OCR_TEXT">내용</p>
+                                                <p style="display:none" data-value="OCR_TOP"></p>
+                                                <p style="display:none" data-value="OCR_LEFT"></p>
+                                                <p style="display:none" data-value="OCR_WIDTH"></p>
+                                                <p style="display:none" data-value="OCR_HEIGHT"></p>
+                                                <p style="display:none" data-value="OCR_TYPE"></p>
+                                                <p style="display:none" data-value="OCR_CONFIDENCE"></p>
+                                            </div>
+                                            <div class="req-field__body" id="PART3_OCR_LIST">
+                                                <div class="req-field__cont no_data" id="OCR_NO_DATA" style="display:none;padding:0">
+                                                    <p><img src="~/Images/no_data.png" /></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="req-result__field" id="PART3_LIST2" style="display:none">
+                                        <h4>필드</h4>
+                                        <div class="req-field__list">
+                                            <div class="req-field__head ocrTb">
+                                                <p data-value="FIELD_SEQ">판독영역</p>
+                                                <p data-value="OCR_NAME">이름</p>
+                                                <p data-value="OCR_TEXT">내용</p>
+                                                <p style="display:none" data-value="OCR_TOP"></p>
+                                                <p style="display:none" data-value="OCR_LEFT"></p>
+                                                <p style="display:none" data-value="OCR_WIDTH"></p>
+                                                <p style="display:none" data-value="OCR_HEIGHT"></p>
+                                                <p style="display:none" data-value="OCR_TYPE"></p>
+                                                <p style="display:none" data-value="OCR_CONFIDENCE"></p>
+                                            </div>
+                                            <div class="req-field__body" id="PART3_OCR_LIST2">
+                                                <div class="req-field__cont no_data" id="OCR_NO_DATA" style="display:none;">
+                                                    <p><img src="~/Images/no_data.png" /></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- S : btn-area -->
+                        <div class="req-info__btns btn-area">
+                            <button type="button" class="btns gray mini prev" onclick="fnMovePage('container')">이전</button>
+                            <button type="button" class="btns blue mini next" id="btn_part3">다음</button>
+                        </div>
+                        <!-- E : btn-area -->
+                    </div>
+                    <!-- E : req-info__seq -->
+                    <!-- S : req-info__seq -->
+                    <div class="req-info__seq" style="background: #eaeefb; box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);">
+                        @*<div class="open-estimate on">
+                            <button type="button" class="btns open_esti" id="btn_all_esti">공개 견적하기</button>
+                            <div class="open-estimate__desc">
+                                <p class="open-estimate__title">공개 견적이란?</p>
+                                <p>빅데이터 기반, 최적의 포워더 다수를 선정하여 <br />동시에 여러 견적을 받아 볼 수 있는 기능입니다.</p>
+                            </div>
+                        </div>*@
+                        <div class="req-info__cover type3" style="flex-direction:column;">
+                            <div class="req-info__flex" style="flex:unset; min-width:unset; width:100%; margin-right:0;">
+                                <div class="req-info__title type3">
+                                    <h4>추천 포워더</h4>
+                                    <select class="select" id="ORDER_TYPE">
+                                        <option value="AVG_TT_DAY">T/Time</option>
+                                        <option value="RTON DESC">RTON</option>
+                                    </select>
+                                </div>
+                                <div class="req-info__desc type3" id="RECCOMEND_FRD_LIST">
+                                    @*<div class="req-forward on">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="req-forward">
+                                            <div class="req-forward__nm">
+                                                <p><img src="~/Images/logo/KMTC.png" /></p>
+                                                <button type="button" class="btns detail" onclick="layerPopup('#forwarderLayer')">상세</button>
+                                            </div>
+                                            <div class="req-forward__desc">
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">상호명</p>
+                                                    <p>㈜KMTC 고려해운</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">담당자</p>
+                                                    <p>홍길동</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">이메일</p>
+                                                    <p>abcdef@testaddress.co.kr</p>
+                                                </div>
+                                                <div class="req-forward__cont">
+                                                    <p class="req-forward__title">연락처</p>
+                                                    <p>XXX-XXXX-XXXX</p>
+                                                </div>
+                                            </div>
+                                        </div>*@
+                                </div>
+                            </div>
+                            <div class="req-info__flex" style="flex:unset; width:100%; min-width:unset; margin-left:0; background:#fff;">
+                                <div class="req-info__title type3">
+                                    <h4 style="padding-top:10px; padding-left:20px;">포워더 조회</h4>
+                                    <div class="int_box req-info__search">
+                                        <input type="text" class="" placeholder="상호명" id="FRD_CUST_NM" />
+                                        <button type="button" class="btns search input" id="btnFrdSearch"></button>
+                                    </div>
+                                </div>
+                                <div class="req-info__desc Head" style="background:unset;">
+                                    @* div로 묶기 *@
+                                    <div class="req-flex">
+                                        <div class="req-list">
+                                            <div class="req-field__head type2">
+                                                <p></p>
+                                                <p data-value="CUST_NM">상호명</p>
+                                                <p data-value="PIC_NM">담당자</p>
+                                                <p data-value="EMAIL">이메일</p>
+                                                <p data-value="TEL_NO">연락처</p>
+                                            </div>
+                                            <div class="chkForward" style="display:none;">
+                                                <p data-value="CRN"></p>
+                                            </div>
+                                            <div class="req-field__body type2" id="FRD_LIST">
+
+                                            </div>
+                                        </div>
+                                        <div class="req-list">
+                                            <div class="req-field__head type2">
+                                                <p></p>
+                                                <p data-value="CUST_NM">상호명</p>
+                                                <p data-value="PIC_NM">담당자</p>
+                                                <p data-value="EMAIL">이메일</p>
+                                                <p data-value="TEL_NO">연락처</p>
+                                            </div>
+                                            <div class="chkForward" style="display:none;">
+                                                <p data-value="CRN"></p>
+                                            </div>
+                                            <div class="req-field__body type2" id="FRD_LIST">
+                                                <div class="req-field__cont type2 part1_add_cargo">
+                                                    <p class="chk type2"><span class="check"><input type="checkbox" id="forward-chk0"><label for="forward-chk0"></label></span></p>
+                                                    <p><span class="s_mo">상호명</span><label>(주)나우리해운항공</label></p>
+                                                    <p><span class="s_mo">담당자</span><label>김홍겸</label></p>
+                                                    <p><span class="s_mo">이메일</span><label>admin@naurilog.co.kr</label></p>
+                                                    <p><span class="s_mo">연락처</span><label>02-721-0900</label></p>
+                                                    <p style="display:none"><span class="s_mo">연락처</span><label>2028159329</label></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- S : btn-area -->
+                        <div class="req-info__btns btn-area">
+                            <button type="button" class="btns gray mini prev">이전</button>
+                            <button type="button" class="btns blue mini next request" id="btn_Quotation">견적요청</button>
+                        </div>
+                        <!-- E : btn-area -->
+                    </div>
+                    <!-- E : req-info__seq -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="layer_zone fwd_layer" id="forwarderLayer">
+        <div class="layer_wrap">
+            <div class="layer_inwrap">
+                <div class="layer_cont">
+                    <div class="fwd">
+                        <div class="fwd-top">
+                            <div class="fwd-company">
+                                <div class="fwd-company__logo" id="CUST_LOGO"></div>
+                                <div class="fwd-company__info">
+                                    <h3 class="fwd-company__title" id="CUST_LOC_NM"></h3>
+                                    <div class="fwd-company__desc">
+                                        <p><span>Addr.</span><span id="CUST_ADDR_NM"></span></p>
+                                        <p><span>Tel.</span><span id="CUST_TEL_NO"></span><span>Email.</span><span id="CUST_EMAIL"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fwd-center">
+                            <div class="fwd-port">
+                                <div class="fwd-port__cont">
+                                    <p class="fwd-port__title">POL</p>
+                                    <p id="CUST_POL_NM"></p>
+                                </div>
+                                <div class="fwd-port__cont">
+                                    <p class="fwd-port__title">POD</p>
+                                    <p id="CUST_POD_NM"></p>
+                                </div>
+                            </div>
+                            <div class="fwd-volume">
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>B/L 진행건수</p>
+                                        <p class="fwd-volume__num" id="DATA_CNT"></p>
+                                    </div>
+                                    <div class="fwd-chart" id="chart1"></div>
+                                </div>
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>물동량(RTON)</p>
+                                        <p class="fwd-volume__num" id="DATA_RTON"></p>
+                                    </div>
+                                    <div class="fwd-chart" id="chart2"></div>
+                                </div>
+                                <div class="fwd-volume__chart">
+                                    <div class="fwd-volume__desc">
+                                        <p>물동량(TEU)</p>
+                                        <p class="fwd-volume__num" id="DATA_TEU"></p>
+                                    </div>
+                                    <div class="fwd-chart" id="chart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fwd-bottom">
+                            <div class="fwd-company__cont">
+                                <h3 class="fwd-company__title">업체소개자료</h3>
+                                <iframe src="" id="iframe_test2"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btns close3" id="" onclick="layerClose('#forwarderLayer');"><span class="blind">닫기</span><img src="/Images/icn_close04.png"></button>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/Scripts/Sub/Estimate/Request.js")
+}

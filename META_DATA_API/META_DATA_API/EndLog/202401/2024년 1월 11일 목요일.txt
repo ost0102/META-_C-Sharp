@@ -1,0 +1,170 @@
+[GetUserInfo ----2024-01-11 15:50:50]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "1234"
+  }
+]
+
+[GetUserInfo ----2024-01-11 15:51:21]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "1234"
+  }
+]
+
+[GetUserInfo ----2024-01-11 15:57:53]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "1234"
+  }
+]
+
+[GetUserInfo ----2024-01-11 15:58:02]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "1234"
+  }
+]
+
+[GetUserInfo ----2024-01-11 15:58:11]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "ALSGML8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 15:58:20]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:04:16]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:06:29]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:10:16]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:14:59]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:20:48]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 16:22:05]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 17:14:45]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetUserInfo ----2024-01-11 17:19:35]    Parameter:   [
+  {
+    "USR_ID": "ebkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetUserInfo ----2024-01-11 17:19:38]    Parameter:   [
+  {
+    "USR_ID": "ebkim@yjit.co.kr",
+    "PSWD": "alsgml8!"
+  }
+]
+
+[GetRecommendQuot ----2024-01-11 17:19:51]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw=="
+  }
+]
+
+[GetDashBoardInfo ----2024-01-11 17:19:52]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "01"
+  }
+]
+
+[GetQuotationList ----2024-01-11 17:20:02]    Parameter:   [
+  {
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw==",
+    "CRN": "1148183347",
+    "YMD_TYPE": "REQ_YMD",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240118",
+    "POL_CD": "",
+    "POD_CD": ""
+  }
+]
+
+[GetExImList ----2024-01-11 17:20:07]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240118"
+  }
+]
+
+[GetExImDocPath ----2024-01-11 17:20:12]    Parameter:   [
+  {
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw==",
+    "CRN": "1148183347",
+    "MNGT_NO": "YJIT2211003",
+    "DOC_TYPE": "HBL"
+  }
+]
+
+[GetExImList ----2024-01-11 17:48:00]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20221023172038986891^ebkim@yjit.co.kr^K2Hj4i6ClTe6oDPV3jZrIv4ka+lj5m9fK13tEQsdgzM3Ot7ITnP5CWmH2x7+axrrRqiPilELaak6v/cU5AUVIw==",
+    "REQ_SVC": "",
+    "EX_IM_TYPE": "E",
+    "YMD_TYPE": "ETD",
+    "POL_CD": "",
+    "POD_CD": "",
+    "FM_YMD": "20221101",
+    "TO_YMD": "20240118"
+  }
+]
+

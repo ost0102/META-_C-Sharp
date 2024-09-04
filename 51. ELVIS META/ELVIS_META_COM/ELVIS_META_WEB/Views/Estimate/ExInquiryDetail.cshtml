@@ -1,0 +1,432 @@
+﻿
+@{
+    ViewBag.Title = "Estimate";
+    ViewBag.Sub = "ExInquiryDetail";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Container {
+    <input type="hidden" id="MNGT_NO" value="@ViewBag.MNGT_NO" />
+    <section class="container" id="container">
+        <div class="contents">
+            <div class="logo">
+                <a onclick="location.href='/Info/Dashboard'">ELVIS-META</a>
+                <div class="sub_title">견적조회 상세</div>
+            </div>
+            <div class="sub_bg">
+                <div class="sub_contents">
+                    <!-- esti_list -->
+                    <div class="esti-list" id="estiList" style="height:unset; overflow:unset;">
+                        <div class="esti-cont registdetail">
+                            <div class="esti-cont__info">
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p></p></div>
+                                            <div class="esti-cont__desc2"><p></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <p class="esti-cont__progress inquiry"><img src="~/Images/icn_progress.png" /></p>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__flex">
+                                            <div class="esti-cont__desc"><p></p></div>
+                                            <div class="esti-cont__desc2"><p></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner inner-flex">
+                                        <div class="esti-cont__date flex-column">
+                                            <div class="esti-cont__date_start">
+                                                <span class="esti-cont__date_title">견적요청일</span>
+                                                <span class="esti-cont__date_cont"></span>
+                                            </div>
+                                            <div class="esti-cont__date_end">
+                                                <span class="esti-cont__date_title">최종견적일</span>
+                                                <span class="esti-cont__date_cont"></span>
+                                            </div>
+                                        </div>
+                                        <div class="esti-cont__etc">
+                                            <div class="esti-cont__etc_item">
+                                                <span class="esti-cont__etc_title">품목명</span>
+                                                <span class="esti-cont__etc_cont"></span>
+                                            </div>
+                                            <div class="esti-cont__etc_item">
+                                                <span class="esti-cont__etc_title">담당자</span>
+                                                <span class="esti-cont__etc_cont"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-cont__box inquiry">
+                                    <div class="esti-cont__inner">
+                                        <div class="esti-cont__etc">
+                                            <div class="esti-cont__etc_item">
+                                                <span class="esti-cont__etc_title">견적금액</span>
+                                                <span class="esti-cont__etc_cont amount"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- esti_list -->
+                    <!-- esti_input -->
+                    <div class="esti_input exinquiry">
+                        <div class="esti_input__cont">
+                            <div class="esti_input__area" id="detail_data">
+                                <div class="esti-input flex4">
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">ETD</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">ETA</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">견적유효기간</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">REMARK</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-input flex3">
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">서비스</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">VESSEL NO</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">FCL/LCL</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="">
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col" style="visibility:hidden;">
+                                        <p class="esti-input__tit"></p>
+                                        <div class="int_box">
+                                            <input type="text" class="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="esti-input flex4">
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">PKG</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">WEIGHT</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">CBM</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input__col">
+                                        <p class="esti-input__tit">Container</p>
+                                        <div class="int_box">
+                                            <input type="text" class="" value="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="esti_input__div" id="frt_list">
+                                <div class="esti_div exinquirydetail">
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="FARE_CD">운임</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="FARE_NM">운임명</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="CURR_CD">통화</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="PKG_UNIT">단위</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="PKG">Qty</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="UNIT_PRC">단가</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="FARE_AMT">금액</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="FARE_LOC_AMT">원화금액</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" value="1000"/>
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="FARE_VAT_AMT">세액</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="esti-input_col">
+                                        <p class="esti-input_tit" value="TOT_AMT">총금액</p>
+                                        <div class="int_box">
+                                            <input type="text" class="frt_txt tot_amt" />
+                                            <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                        </div>
+                                    </div>
+                                    @*<div class="esti-btn_col">
+                                        <button type="button" class="frt_btn off"></button>
+                                    </div>*@
+                                </div>
+                            </div>
+                            @*<div class="esti-input__tb pc">
+            <table class="esti_table">
+                <colgroup>
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                    <col width="10%" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>운임</th>
+                        <th>운임명</th>
+                        <th>통화</th>
+                        <th>단위</th>
+                        <th>Qty</th>
+                        <th>단가</th>
+                        <th>금액</th>
+                        <th>원화금액</th>
+                        <th>세액</th>
+                        <th>총금액</th>
+                    </tr>
+                </thead>
+            </table>
+            <div class="esti_table tbody">
+                <table class="esti_table tbody">
+                    <colgroup>
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                        <col width="10%" />
+                    </colgroup>
+                    <tbody>
+                        <tr class="addtr">
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="운임" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="운임명" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="통화" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="단위" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="Qty" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="단가" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="금액" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="원화금액" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="세액" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="int_box">
+                                    <input type="text" class="" value="총금액" disabled>
+                                    <button type="button" class="btns icon delete" style="display:none;"><span class="blind">삭제</span></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="esti-input__tb mo">
+            <div class="adddiv">
+                <div class="int_area">
+                    <p>운임</p>
+                    <div class="int_box">
+                        <input type="text" value="운임" disabled/>
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>운임명</p>
+                    <div class="int_box">
+                        <input type="text" value="운임명" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>통화</p>
+                    <div class="int_box">
+                        <input type="text" value="통화" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>단위</p>
+                    <div class="int_box">
+                        <input type="text" value="단위" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>Qty</p>
+                    <div class="int_box">
+                        <input type="text" value="Qty" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>단가</p>
+                    <div class="int_box">
+                        <input type="text" value="단가" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>금액</p>
+                    <div class="int_box">
+                        <input type="text" value="금액" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>원화금액</p>
+                    <div class="int_box">
+                        <input type="text" value="원화금액" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>세액</p>
+                    <div class="int_box">
+                        <input type="text" value="세액" disabled />
+                    </div>
+                </div>
+                <div class="int_area">
+                    <p>총금액</p>
+                    <div class="int_box">
+                        <input type="text" value="총금액" disabled />
+                    </div>
+                </div>
+            </div>
+        </div>*@
+                            <div class="total_box">
+                                <div class="total_amount">
+                                    <span class="amount_tit">TOTAL AMOUNT</span>
+                                    <div style="display:flex; align-items:center;">
+                                        <span class="amount_total">1,206,049</span><span class="amount_unit">KRW</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="estimate-inquiry__btns btn-area">
+                            <button type="button" class="btns blue" id="back_list" @*onclick="location.href='/Estimate/Inquiry'"*@>목록</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Scripts.Render("~/Scripts/Sub/Estimate/ExInquiryDetail.js")
+}

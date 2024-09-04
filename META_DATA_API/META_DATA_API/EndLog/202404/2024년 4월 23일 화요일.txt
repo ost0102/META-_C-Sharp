@@ -1,0 +1,73 @@
+[GetUserInfo ----2024-04-23 16:42:18]    Parameter:   [
+  {
+    "USR_ID": "ekkim@yjit.co.kr",
+    "PSWD": "yjit12#$"
+  }
+]
+
+[GetFDashBoardInfo ----2024-04-23 16:42:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04"
+  }
+]
+
+[GetFQuotList ----2024-04-23 16:42:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg=="
+  }
+]
+
+[GetDashBoardInfo ----2024-04-23 16:42:26]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04",
+    "USR_TYPE": "F",
+    "DOC_TYPE": "'QUOT'",
+    "SEA_EX": "Y",
+    "SEA_IM": "Y",
+    "AIR_EX": "Y",
+    "AIR_IM": "Y"
+  }
+]
+
+[GetDashBoardInfo ----2024-04-23 16:42:27]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04",
+    "PREV_YYYY": 2023
+  }
+]
+
+[GetDashBoardInfo ----2024-04-23 16:47:19]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04",
+    "USR_TYPE": "F",
+    "DOC_TYPE": "'QUOT'",
+    "SEA_EX": "Y",
+    "SEA_IM": "Y",
+    "AIR_EX": "Y",
+    "AIR_IM": "Y"
+  }
+]
+
+[GetDashBoardInfo ----2024-04-23 16:47:20]    Parameter:   [
+  {
+    "CRN": "1148183347",
+    "AUTH_KEY": "20240116133605123495^ekkim@yjit.co.kr^V3MCgjnlHATN+NQ4wCrZTl1lY+Kt0ArK8xn3dmHs4wsaDSua3pxV3s+uGqnX/blFA0YPrUDGMmDHutVMEoHrxg==",
+    "DATE_YYYY": "2024",
+    "DATE_MM": "04",
+    "PREV_YYYY": 2023
+  }
+]
+

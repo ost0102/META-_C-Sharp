@@ -1,0 +1,22 @@
+[Auth-2024-01-10 15:36:48]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:38:08]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:39:28]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:41:00]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:41:20]    Unlogin     /   http://localhost:49876/api/UserData/SetUserRegist
+
+[Auth-2024-01-10 15:42:07]    Unlogin     /   http://localhost:49876/api/UserData/SetUserRegist
+
+[Auth-2024-01-10 15:44:14]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:44:31]    Unlogin     /   http://localhost:49876/api/UserData/SetUserRegist
+
+[Auth-2024-01-10 15:46:28]    Unlogin     /   http://localhost:49876/api/UserData/GetUserInfo
+
+[Auth-2024-01-10 15:46:45]    Unlogin     /   http://localhost:49876/api/UserData/SetUserRegist
+
+[Auth-2024-01-10 15:46:48]    Unlogin     /   http://localhost:49876/api/UserData/LicenseUpload
+

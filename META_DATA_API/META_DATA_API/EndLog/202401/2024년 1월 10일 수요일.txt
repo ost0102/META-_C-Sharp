@@ -1,0 +1,71 @@
+[GetUserInfo ----2024-01-10 15:36:48]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[GetUserInfo ----2024-01-10 15:38:09]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[GetUserInfo ----2024-01-10 15:39:28]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[GetUserInfo ----2024-01-10 15:41:00]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[SetUserRegist-2024-01-10 15:41:20]    Exception :   'MNGT_NO' 열은  테이블에 속하지 않습니다.
+
+[SetUserRegist-2024-01-10 15:42:28]    Exception :   'MNGT_NO' 열은  테이블에 속하지 않습니다.
+
+[GetUserInfo ----2024-01-10 15:44:14]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[SetUserRegist ----2024-01-10 15:44:53]    Parameter:   [
+  {
+    "USR_TYPE": "S",
+    "QUOT": "Y",
+    "EXPORT": "Y",
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!",
+    "USR_NM": "김은빈",
+    "HP_NO": "01072371685",
+    "LOC_NM": "양재아이티",
+    "DOMAIN": ""
+  }
+]
+
+[GetUserInfo ----2024-01-10 15:46:28]    Parameter:   [
+  {
+    "USR_ID": "dmsqlsdl22@naver.com"
+  }
+]
+
+[SetUserRegist ----2024-01-10 15:46:48]    Parameter:   [
+  {
+    "USR_TYPE": "S",
+    "QUOT": "Y",
+    "EXPORT": "Y",
+    "IMPORT": "Y",
+    "USR_ID": "dmsqlsdl22@naver.com",
+    "PSWD": "alsgml8!",
+    "USR_NM": "김은빈",
+    "HP_NO": "01072371685",
+    "LOC_NM": "양재아이티",
+    "DOMAIN": ""
+  }
+]
+
+[LicenseUpload ----2024-01-10 15:46:48]    Parameter:   20240110154646774792
+
